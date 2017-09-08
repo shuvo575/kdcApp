@@ -3,7 +3,7 @@
 	if(isset($_SESSION['username'])){
 	require('config.php');
 	get_header();
-	$sel= "SELECT * FROM patient WHERE lab_id AND status='1' ORDER BY lab_id DESC";
+	$sel= "SELECT * FROM patient WHERE lab_id AND status='1' ORDER BY lab_id DESC limit 100";
 	$res= $db -> query($sel);
 	
 	

@@ -33,23 +33,23 @@
 			<a title="Edit" class="edit_button" href="pat_edit.php?p=<?php echo $id; ?>"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
 			<a title="New Patient" class="back_button" href="index.php"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></a>
 			</div>
-			<div class="col-md-6 b_1">
+			<div class="col-md-7 b_1">
 			<label for="">Patient ID: <?php echo $data['p_id']; ?></label>
 			</div>
-			<div class="col-md-6 b_1">
+			<div class="col-md-5 b_1">
 			<label for="">LAB ID: <?php echo $data['lab_id']; ?></label>
 			</div>
-			<div class="col-md-7 b_1">
+			<div class="col-md-8 b_1">
 			<label for=""> Patient's Name: <?php echo $data['p_name']; ?></label>
 			</div>
-			<div class="col-md-5 b_1 text-capitalize">
-			<label for="">Sex: <?php echo $data['sex']; ?></label>
+			<div class="col-md-2 textone b_1">
+				<label for=""> Age: <?php echo $data['p_age'].'Years'; ?></label>
 			</div>
-			<div class="col-md-8 b_1">
-			<label for="">Delivery Date & Time: <?php echo $data['p_datetime']; ?></label>
+			<div class="col-md-2 textone b_1 text-capitalize">
+				<label for="">Sex: <?php echo $data['sex']; ?></label>
 			</div>
-			<div class="col-md-4 b_1">
-				<label for=""> Age: <?php echo $data['p_age'].' Years'; ?></label>
+			<div class="col-md-12 b_1">
+				<label for="">Delivery Date & Time: <?php echo $data['p_datetime']; ?></label>
 			</div>
 			<div class="col-md-12 b_1<?php if($specimen1==="xray"){ echo(' bb_2'); } ?>">
 			<label for="">Referred by Dr./ Prof.: <?php 

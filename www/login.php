@@ -57,7 +57,7 @@
 				<form method="post">
 					<div class="col-md-4"></div>
 			  	  <div class="col-md-4">
-						<input type="text" class="text-center" name="username" placeholder="username" autocomplete="off" required><br><br>
+						<input type="text" class="text-center" name="username" placeholder="username" autocomplete="off" required autofocus><br><br>
 						<input type="password" class="text-center" name="password" placeholder="password" required><br><br>
 					  <input type="submit" value="Login" id="go">
 					</div>

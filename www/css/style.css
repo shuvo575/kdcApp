@@ -44,12 +44,14 @@ a:hover > span{
  
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+	box-shadow: inset 0 0 6px rgba(0,0,0,1); 
     border-radius: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 5px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);
+	box-shadow: inset 0 0 6px rgba(0,0,0,1);
 }
 
 
@@ -103,12 +105,14 @@ select, input {
 }
 
 select:focus , input:focus {
-    border-bottom-color: #D30020;
-	border-top-color: green;
-	border-left-color: yellow;
-	border-right-color: yellow;
-	border-top-style: dotted;
-	border-bottom-style: dashed;
+    border-bottom-color: #FF00D6;
+	border-top-color: #FF00D6;
+	border-left-color: #FF00D6;
+	border-right-color: #FF00D6;
+	border-top-style: dashed;
+	border-bottom-style: solid;
+	border-left-style: dashed;
+	border-right-style: dashed;
 }
 
 #p_form > div{
@@ -199,6 +203,7 @@ label, a{
 #go:active{
 	border-top: 4px solid #000000;
 }
+
 
 /*==================================== front page css ended =======================*/
 
@@ -384,8 +389,8 @@ footer{
 
 @media print{
 	@page{
-		size: A4;
-		margin: 2cm 2cm 0.5cm 2cm;
+		size: 210mm 276mm;
+		margin: 40mm 15mm 12mm;
 	}
 	
 	h2, hr{

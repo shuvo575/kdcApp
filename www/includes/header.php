@@ -111,7 +111,15 @@
 			document.getElementById('alert').style.display='block';
 		}
 		
-		
+		//contexmenu 
+		/* $(document).on("contextmenu",function(e){
+
+			 if( e.button == 2 ) {
+				 e.preventDefault();
+				  document.getElementById('alert').style.display='block';
+			 }
+		return true;
+		}); */
 		
 		//clock script
 		
