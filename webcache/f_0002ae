@@ -1,0 +1,1031 @@
+
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>KATIADI DIAGNOSTIC CENTER</title>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/moment.js"></script>
+	<script src="js/jquery.datetimepicker.full.js"></script>
+	
+</head>
+	<body style="padding-top: 70px">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+				  <a class="navbar-brand" href="index.php"><img src="pics/logo.png" height="50" alt="logo"></a></div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="topFixedNavbar1">
+				  <ul class="nav navbar-nav">
+					<li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+					<li><a href="new_doctor.php">New Doctor</a></li>
+					<li><a href="view_doctor.php">Doctor List</a></li>
+					<li class="active"><a href="view_patient.php">Patient List</a></li>
+					<li><a href="last_patient.php">Last Entry</a></li>
+				  </ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+<section class="container-fluid text-center">
+	<div class="col-md-12" style="position: relative;">
+	<h2 class="title text-center">--Patients List--</h2>
+	<hr><div class="col-md-12">
+			<a class="edit_button trash" href="patient_trash.php"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+			<a class="back_button" href="index.php"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>NEW</a>
+		</div>
+		<div class="row">
+			<div class="col-md-1 textone b_1">
+			<label for="">Lab ID:</label>
+			</div>
+			<div class="col-md-2  b_1">
+			<label for="">Patient ID:</label>
+			</div>
+			<div class="col-md-4  b_1">
+			<label for="">Patient's Name</label>
+			</div>
+			<div class="col-md-2  b_1">
+			<label for="">Referred by</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for="">Manage</label>
+			</div>
+		</div>
+				<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">114</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">151</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=114">Details</a><a class="manag" id="edit" href="pat_edit.php?p=114">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=114">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">113</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">4556</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Shanto</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=113">Details</a><a class="manag" id="edit" href="pat_edit.php?p=113">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=113">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">112</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">851</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shohag</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=112">Details</a><a class="manag" id="edit" href="pat_edit.php?p=112">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=112">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">111</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">5141</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">adadasd</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Shanto</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=111">Details</a><a class="manag" id="edit" href="pat_edit.php?p=111">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=111">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">100</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">1458</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">ESR</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=100">Details</a><a class="manag" id="edit" href="pat_edit.php?p=100">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=100">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">99</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">51</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Semen</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=99">Details</a><a class="manag" id="edit" href="pat_edit.php?p=99">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=99">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">98</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">15</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">S creatinine</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Shanto</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=98">Details</a><a class="manag" id="edit" href="pat_edit.php?p=98">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=98">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">97</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">51</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Urine for R/E</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=97">Details</a><a class="manag" id="edit" href="pat_edit.php?p=97">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=97">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">96</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">151</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">CBC</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Shanto</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=96">Details</a><a class="manag" id="edit" href="pat_edit.php?p=96">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=96">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">95</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">15</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">CBC</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Self</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=95">Details</a><a class="manag" id="edit" href="pat_edit.php?p=95">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=95">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">94</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">54</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">MP</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=94">Details</a><a class="manag" id="edit" href="pat_edit.php?p=94">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=94">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">93</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">5</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">BT & CT</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=93">Details</a><a class="manag" id="edit" href="pat_edit.php?p=93">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=93">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">92</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">4</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Widal</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=92">Details</a><a class="manag" id="edit" href="pat_edit.php?p=92">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=92">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">91</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">3</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">S bilirubin</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=91">Details</a><a class="manag" id="edit" href="pat_edit.php?p=91">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=91">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">90</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">2</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">X-Ray</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=90">Details</a><a class="manag" id="edit" href="pat_edit.php?p=90">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=90">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">89</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">1</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">CRP RA REst</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=89">Details</a><a class="manag" id="edit" href="pat_edit.php?p=89">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=89">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">88</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">24425</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">ogtt3</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=88">Details</a><a class="manag" id="edit" href="pat_edit.php?p=88">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=88">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">87</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">2563</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">CBCV</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=87">Details</a><a class="manag" id="edit" href="pat_edit.php?p=87">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=87">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">86</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">786</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Last test</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=86">Details</a><a class="manag" id="edit" href="pat_edit.php?p=86">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=86">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">85</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">15</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Shanto</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=85">Details</a><a class="manag" id="edit" href="pat_edit.php?p=85">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=85">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">83</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">420</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Shanto</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=83">Details</a><a class="manag" id="edit" href="pat_edit.php?p=83">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=83">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">82</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">45</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">bgxcgb</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Self</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=82">Details</a><a class="manag" id="edit" href="pat_edit.php?p=82">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=82">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">81</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">54</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=81">Details</a><a class="manag" id="edit" href="pat_edit.php?p=81">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=81">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">79</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">1518</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Biplob</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sohag hasan</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=79">Details</a><a class="manag" id="edit" href="pat_edit.php?p=79">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=79">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">78</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">15673</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">M1</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Shirina Akter</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=78">Details</a><a class="manag" id="edit" href="pat_edit.php?p=78">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=78">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">77</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">142536</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=77">Details</a><a class="manag" id="edit" href="pat_edit.php?p=77">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=77">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">76</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">14</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=76">Details</a><a class="manag" id="edit" href="pat_edit.php?p=76">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=76">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">75</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">1524</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=75">Details</a><a class="manag" id="edit" href="pat_edit.php?p=75">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=75">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">74</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">152</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=74">Details</a><a class="manag" id="edit" href="pat_edit.php?p=74">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=74">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">73</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">12</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shuvos</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Self</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=73">Details</a><a class="manag" id="edit" href="pat_edit.php?p=73">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=73">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">72</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">100</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">SEMEN</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=72">Details</a><a class="manag" id="edit" href="pat_edit.php?p=72">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=72">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">71</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">520</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">MT</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=71">Details</a><a class="manag" id="edit" href="pat_edit.php?p=71">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=71">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">68</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">24</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">ogtt</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=68">Details</a><a class="manag" id="edit" href="pat_edit.php?p=68">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=68">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">66</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">24</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Group</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=66">Details</a><a class="manag" id="edit" href="pat_edit.php?p=66">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=66">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">65</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">17</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Xray</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=65">Details</a><a class="manag" id="edit" href="pat_edit.php?p=65">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=65">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">64</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">3636</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">ESR Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=64">Details</a><a class="manag" id="edit" href="pat_edit.php?p=64">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=64">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">63</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">39</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Pregnancy</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Shirina Akter</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=63">Details</a><a class="manag" id="edit" href="pat_edit.php?p=63">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=63">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">62</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">135</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Jahid Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sohag hasan</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=62">Details</a><a class="manag" id="edit" href="pat_edit.php?p=62">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=62">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">61</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">32</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">CBC</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=61">Details</a><a class="manag" id="edit" href="pat_edit.php?p=61">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=61">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">60</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">143</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Urnine</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Farabi Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=60">Details</a><a class="manag" id="edit" href="pat_edit.php?p=60">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=60">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">59</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">23</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Urine</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Farabi Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=59">Details</a><a class="manag" id="edit" href="pat_edit.php?p=59">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=59">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">58</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">31</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sadia</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=58">Details</a><a class="manag" id="edit" href="pat_edit.php?p=58">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=58">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">57</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">46467</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=57">Details</a><a class="manag" id="edit" href="pat_edit.php?p=57">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=57">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">56</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">1215</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=56">Details</a><a class="manag" id="edit" href="pat_edit.php?p=56">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=56">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">55</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">22</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=55">Details</a><a class="manag" id="edit" href="pat_edit.php?p=55">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=55">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">54</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">49</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=54">Details</a><a class="manag" id="edit" href="pat_edit.php?p=54">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=54">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">53</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">61</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=53">Details</a><a class="manag" id="edit" href="pat_edit.php?p=53">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=53">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">52</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">70</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Shuvo</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sohag hasan</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=52">Details</a><a class="manag" id="edit" href="pat_edit.php?p=52">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=52">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">51</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">34</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=51">Details</a><a class="manag" id="edit" href="pat_edit.php?p=51">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=51">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">50</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">51</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=50">Details</a><a class="manag" id="edit" href="pat_edit.php?p=50">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=50">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">49</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">40</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=49">Details</a><a class="manag" id="edit" href="pat_edit.php?p=49">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=49">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">48</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">26</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Sadia Afrin</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=48">Details</a><a class="manag" id="edit" href="pat_edit.php?p=48">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=48">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">47</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">11</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">sdgbfsiuygb</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Halima Khatun</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=47">Details</a><a class="manag" id="edit" href="pat_edit.php?p=47">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=47">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">45</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">42</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=45">Details</a><a class="manag" id="edit" href="pat_edit.php?p=45">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=45">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">44</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">12</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=44">Details</a><a class="manag" id="edit" href="pat_edit.php?p=44">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=44">Delete</a></label>
+			
+			</div>
+		</div> 		<div class="row hover">
+			<div class="col-md-1 bb_1  b_1">
+			<label for="">43</label>
+			</div>
+			<div class="col-md-2 bb_1  b_1">
+			<label for="">11</label>
+			</div>
+			<div class="col-md-4 bb_1 textone b_1">
+			<label for="">Sohag Hasan</label>
+			</div>
+			<div class="col-md-2 bb_1 textone b_1">
+			<label for="">Bivob Bikash Boral</label>
+			</div>
+			<div class="col-md-3  b_1">
+			<label for=""><a class="manag" id="detail" href="pat_details.php?p=43">Details</a><a class="manag" id="edit" href="pat_edit.php?p=43">Edit</a><a class="manag" id="delete" href="delete_patient.php?p=43">Delete</a></label>
+			
+			</div>
+		</div> </section>
+
+
+	
+			<footer class="text-center">
+			<h4>&middot; KATIADI &middot; DIAGNOSTIC &middot; CENTER &middot;</h4>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,520 @@
+@font-face{
+	font-family: "Raleway-Regular";
+	src: url(../fonts/Raleway-Regular.ttf);
+}
+
+*{
+	font-family: "Raleway-Regular";
+}
+
+body{
+	background: url(../pics/bg.png) center center no-repeat;
+	background-size: contain;
+	min-height: 100vh;
+	padding-bottom: 39px;
+}
+
+#datatable tbody{
+	background: transparent;
+}
+
+label > a{
+	text-decoration: none;
+}
+
+#clock {
+   text-align: center;
+	margin: 10px;
+   font-size: 20px;
+   font-family: Baskerville, Georgia;
+}
+
+a > span{
+	color: black;
+	transition: all ease 400ms;
+}
+
+a:hover > span{
+	color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);
+}
+
+
+input:checked + div { display: block; }
+input + div { display: none; }
+
+.check_box{
+	float: right; 
+	border: 2px solid #7C7C7C; 
+	padding: 5px 20px; border-radius: 20px; 
+	text-transform: uppercase; 
+	letter-spacing: 1px; 
+	cursor: pointer;
+	transition: all ease 200ms;
+}
+
+.navbar-brand {
+	margin-top: -15px;
+}
+
+.main_title {
+	font-size: 40px !important;
+}
+
+.title {
+	font-size: 30px;
+}
+
+.form_row {
+	display: flex;
+}
+
+#txtarea{
+	border: 2px solid #7C7C7C;
+	background-color: transparent;
+	border-radius: 36px;
+	padding: 5px 10px;
+	outline: 0px;
+	font-size: 18px!important;
+}
+
+
+select, input {
+	border: 2px solid #7C7C7C;
+	background-color: transparent;
+	border-radius: 36px;
+	padding: 5px 10px;
+	outline: 0px;
+	flex: 1;
+	font-size: 18px!important;
+}
+
+select:focus , input:focus {
+    border-bottom-color: #D30020;
+	border-top-color: green;
+	border-left-color: yellow;
+	border-right-color: yellow;
+	border-top-style: dotted;
+	border-bottom-style: dashed;
+}
+
+#p_form > div{
+	margin: 10px 0px;
+}
+
+label, a{
+	font-size: 18px !important;
+	line-height: 25px;
+	padding: 0px 5px 0px 0px;
+}
+
+.test_name2 > label{
+	padding-right: 20px !important;
+	font-size: 18px!important;
+}
+
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+
+#specimen {
+	font-size: 18px!important;
+}
+
+#reset{
+	transition: 300ms ease;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.check_box:hover, #reset:hover {
+	background-color: #D11619;
+	border: 2px solid #D11619;
+	color: #FDFDFD;
+}
+
+.check_box:hover{
+	background-color: #F8FF00;
+	color: red;
+	border-color: #F56D6F;
+}
+
+.check_box:active, #reset:active{
+	border-top: 4px solid #000000;
+}
+
+.cancel_button{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	border: 2px solid #7C7C7C;
+	border-radius: 25px;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	transition: all ease 200ms;
+	letter-spacing: 1px;
+	color: #000000;
+}
+
+.cancel_button:hover {
+	background-color: #D11619;
+	border: 2px solid #D11619;
+	color: #FDFDFD;
+	text-decoration: none;
+}
+
+.cancel_button:active{
+	border-top: 4px solid #000000;
+}
+
+
+#go{
+	transition: 200ms ease;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#go:hover{
+	background-color: #08531C;
+	border: 2px solid #08531C;
+	color: #FFFFFF;
+}
+
+#go:active{
+	border-top: 4px solid #000000;
+}
+
+/*==================================== front page css ended =======================*/
+
+.mb_15{
+	margin-bottom: 15px;
+}
+
+.mb_1{
+	margin-bottom: 1px;
+}
+.hover{
+	background-color: transparent;
+	transition: ease 100ms;
+}
+.hover:hover{
+	background-color: #DDDDDD;
+}
+
+.b_1{
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-bottom: 0px;
+}
+
+.b_1:last-child{
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.bt_1{
+	border-top: 1px solid #000000;
+}
+
+.bb_1{
+	border-bottom: 1px solid #000000;
+}
+
+.manag{
+	text-decoration: none;
+	color: #000000;
+	margin: 0px 2px;
+	transition: 150ms ease;
+}
+
+#detail:hover{
+	text-decoration: none;
+	color: green;
+}
+
+#edit:hover{
+	text-decoration: none;
+	color: #91A404;
+}
+
+#delete:hover{
+	text-decoration: none;
+	color: darkred;
+}
+
+
+.textone{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+p{
+	font-size: 16px;
+}
+
+#sign{
+	display: none;
+}
+
+footer{
+	letter-spacing: 3px;
+	position: fixed;
+	bottom: 0px;
+	background: rgba(22,22,22,0.90);
+	color: aliceblue;
+	width: 100%;
+}
+
+.report_print{
+	margin-bottom: 0px;
+	padding: 0px!important;
+}
+
+.edit_button{
+	position: absolute;
+	top: -85px;
+	right: 50px;
+	border: 2px solid #000;
+	border-radius: 25px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	transition: all ease 200ms;
+	letter-spacing: 3px;
+}
+
+.back_button{
+	position: absolute;
+	top: -85px;
+	left: 50px;
+	border: 2px solid #000;
+	border-radius: 25px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	transition: all ease 200ms;
+	letter-spacing: 3px;
+}
+
+.back_button:hover{
+	color: whitesmoke;
+	background-color: green;
+	text-decoration: none;
+	border-color: green;
+}
+.edit_button:hover{
+	color: whitesmoke;
+	background-color: green;
+	text-decoration: none;
+	border-color: green;
+}
+
+.back_button:active{
+	border-top: 4px solid #000;
+	text-decoration: none;
+}
+
+.edit_button:active{
+	border-top: 4px solid #000;
+	text-decoration: none;
+}
+
+.trash{
+	border-color: transparent;
+	color: transparent;
+}
+.mt_50{
+	margin-top: 50px;
+	padding-bottom: 39px;
+}
+
+.print_button{
+	transition: 100ms ease;
+	padding: 15px 25px;
+	background-color: transparent;
+	border-radius: 30px;
+	border: 2px solid black;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	outline: none;
+}
+
+#datatable_info{
+	font-size: 18px;
+	text-transform: capitalize;
+}
+#datatable_length{
+	text-transform: capitalize;
+}
+
+.print_button:hover{
+	background-color: #0C822B;
+	border: 2px solid #08531C;
+	color: #FFFFFF;
+	outline: none;
+}
+
+.print_button:active{
+	border-top: 4px solid #000000;
+	outline: none;
+}
+
+.pm_0{
+	padding: -5px;
+}
+
+@media print{
+	@page{
+		size: A4;
+		margin: 2cm 2cm 0.5cm 2cm;
+	}
+	
+	h2, hr{
+		display: none;
+	}
+	
+	.print{
+		display: none;
+	}
+	
+	*{
+		font-family:Helvetica, Arial," sans-serif"!important;
+	}
+	
+	select, input {
+	font-size: 12px!important;
+	}
+
+	#p_form > div{
+		margin: 5px 0px;
+	}
+	
+	label, a{
+		font-size: 13px!important;
+		line-height: 25px;
+		padding: 0px 5px 0px 0px;
+	}
+
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+		float: left;
+	}
+	
+	.col-md-1{
+		width: 100%;
+	}
+	
+	.col-md-2{
+		width: 16.6666666667%;
+	}
+	
+	.col-md-3{
+		width: 25%;
+	}
+	
+	.col-md-4{
+		width: 33.33333333333%;
+	}
+	
+	.col-md-5{
+		width: 41.66666666666667%;
+	}
+	
+	.col-md-6{
+		width: 50%;
+	}
+	
+	.col-md-7{
+		width: 58.333333333333%;
+	}
+	
+	.col-md-8{
+		width: 66.666666666667%;
+	}
+	
+	.col-md-9{
+		width: 75%;
+	}
+	
+	.col-md-10{
+		width: 83.3333333333333%;
+	}
+	
+	.col-md-11{
+		width: 91.666666666667%;
+	}
+	
+	.col-md-12{
+		width: 100%;
+	}
+	
+	#sign{
+		display: block;
+		position: fixed;
+		bottom: 2mm;
+		right: -35mm;
+		width: 55mm;
+	}
+	
+	p{
+		font-size: 12px;
+	}
+	.report_print{
+		margin-bottom: 0px;
+		padding: 0px!important;
+	}
+	
+	#sign p{
+		font-size: 13px;
+	}
+	
+	.ref_test{
+		font-size: 13px;
+	}
+	
+	footer{
+		display: none;
+	}
+	.edit_button{
+		display: none;
+	}
+	
+	.back_button{
+		display: none;
+	}
+	.mb_15{
+		margin-bottom: 7px;
+	}
+	.print_button{
+		display: none;
+	}
+	body{
+		padding-bottom: 0px!important;
+		background: none;
+	}
+	.cancel_button{
+		display: none;
+	}
+	
+	.in_print_off{
+		display: none;
+	}
+}
