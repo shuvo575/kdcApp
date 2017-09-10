@@ -37,6 +37,7 @@
 			<label for=""> Age: <?php echo $data['age']; ?></label>
 			</div>
 		</div>
+		<?php if($_SESSION['role']=='boss'){ ?> 
 		<div class="col-md-12" style="margin-top: 60px;">
 			<form method="post">
 				<div class="col-md-3">
@@ -74,6 +75,7 @@
 				<div class="col-md-12 text-center" style="margin-top: 20px;"><input type="submit" id="go" value="View Bill"></div>
 			</form>
 		</div>
+		<?php } ?>
 	</div>
 </section>
 	

@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	ob_start();
 	if(isset($_SESSION['username'])){
 	require_once("config.php");
 	get_header();
@@ -53,9 +54,9 @@
 							 $d_sex=$_POST['sex'];
 							 $degree=$_POST['degree'];
 
-							$insert="INSERT INTO doctor(doctor_id,d_name,age,sex,degree,status)VALUES('','$d_name','$d_age','$d_sex','$degree','1')";
+							$insert="INSERT INTO doctor(d_name,age,sex,degree,status)VALUES('$d_name','$d_age','$d_sex','$degree','1')";
 
-							if(mysqli_query($CON,$insert)){
+							if($db->exec($insert)){
 								echo "New Doctor Added to Database Successfully!";
 								header('location: view_doctor.php');
 							}else{

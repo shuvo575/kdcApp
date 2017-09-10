@@ -34,39 +34,39 @@
 			<a title="New Patient" class="back_button" href="index.php"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></a>
 			</div>
 			<div class="col-md-7 b_1">
-			<label for="">Patient ID: <?php echo $data['p_id']; ?></label>
+			<p  class="report_print">Patient ID: <?php echo $data['p_id']; ?></p>
 			</div>
 			<div class="col-md-5 b_1">
-			<label for="">LAB ID: <?php echo $data['lab_id']; ?></label>
+			<p  class="report_print">LAB ID: <?php echo $data['lab_id']; ?></p>
 			</div>
 			<div class="col-md-8 b_1">
-			<label for=""> Patient's Name: <?php echo $data['p_name']; ?></label>
+			<p  class="report_print"> Patient's Name: <b><?php echo $data['p_name']; ?></b></p>
 			</div>
 			<div class="col-md-2 textone b_1">
-				<label for=""> Age: <?php echo $data['p_age'].'Years'; ?></label>
+				<p  class="report_print"> Age: <?php echo $data['p_age'].'Years'; ?></p>
 			</div>
 			<div class="col-md-2 textone b_1 text-capitalize">
-				<label for="">Sex: <?php echo $data['sex']; ?></label>
+				<p  class="report_print">Sex: <?php echo $data['sex']; ?></p>
 			</div>
 			<div class="col-md-12 b_1">
-				<label for="">Delivery Date & Time: <?php echo $data['p_datetime']; ?></label>
+				<p  class="report_print">Delivery Date & Time: <?php echo $data['p_datetime']; ?></p>
 			</div>
 			<div class="col-md-12 b_1<?php if($specimen1==="xray"){ echo(' bb_2'); } ?>">
-			<label for="">Referred by Dr./ Prof.: <?php 
+			<p  class="report_print">Referred by Dr./ Prof.: <?php 
 				$doctorsub = $data['doctor_id'];
 				$seldoc= "SELECT * FROM doctor WHERE doctor_id=$doctorsub";
 				$resdoc= $db->query($seldoc);
 				$data=$resdoc-> fetchArray(SQLITE3_ASSOC);
 				echo $data['d_name']."	".$data['degree'];
-				?></label>
+				?></p>
 			</div>
 			<?php if($specimen1==="xray"){ ?>
 			<div class="col-md-12 bb_1 b_1">
-			<label for=""><?php echo $xray['test_name'].': '.$xray_test_res_arry['report']; ?></label>
+			<p  class="report_print"><?php echo $xray['test_name'].': '.$xray_test_res_arry['report']; ?></p>
 			</div>
 			<?php }else{ ?>
 				<div class="col-md-12 bb_1 b_1">
-					<label for=""> Name of Examination: <?php
+					<p  class="report_print"> Name of Examination: <?php
 					$i=0;
 					while($test_name= $test_code_qry -> fetchArray(SQLITE3_ASSOC)){
 						if($i==1){
@@ -79,7 +79,7 @@
 					}
 				
 						  ?>
-					</label>
+					</p>
 				</div>
 				 <?php } ?>
 		<div class="col-md-12">
