@@ -187,7 +187,7 @@
 		$edit_sex = $_POST['edit_sex'];
 		$edit_doctor = $_POST['doctor'];
 		$edit_pat_amount = $_POST['pat_amount'];
-		if($specimen1==='xray'){ $doc_amount=100; }else{ $doc_amount=$edit_pat_amount/2; }
+		if($specimen1==='xray'){ $doc_amount=50; }else{ $doc_amount=$edit_pat_amount/2; }
 		$edit_datetime = $_POST['edit_datetime'];
 		$edit_p_age = $_POST['edit_p_age'];
 		$update= "UPDATE patient SET p_id='$edit_p_id', p_datetime='$edit_datetime', p_name='$edit_p_name', p_age='$edit_p_age', doctor_id='$edit_doctor', pat_amount='$edit_pat_amount', doc_amount='$doc_amount', sex='$edit_sex' WHERE lab_id='$lab_id'";

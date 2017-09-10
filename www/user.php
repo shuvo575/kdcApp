@@ -23,12 +23,16 @@
 			<div class="col-md-4 title"><label style="font-size: 22px!important;" for="">Username: <?php echo $data['username']; ?></label></div>
 			<div class="col-md-4 title"><label style="font-size: 22px!important;" for="">User ID: <?php echo $data['id']; ?></label></div>
 		</div>
-		
+		<div class="col-md-12 text-center">
+			<div class="col-md-4 title"><label style="font-size: 22px!important;" for="">Degree: <?php echo $data['degree']; ?></label></div>
+			<div class="col-md-4 title"><label style="font-size: 22px!important;" for="">Designation: <?php echo $data['desig']; ?></label></div>
+			<div class="col-md-4 title"><label style="font-size: 22px!important;" for=""></label></div>
+		</div>
 		<div class="col-md-12 text-center"><hr>
 		<?php 
 		
 		if($success=$_GET['s']==='s'){
-			echo "<h2 class='title'><b style='color:green;'>Password Updated!</b></h2>";
+			echo "<h2 class='title'><b style='color:green;'>Password Updated!</b></h2><p><b>Now You Should Use Your New Password to Login!</b></p>";
 		}else{ ?> <h2 class="title">To Change Your Password</h2><h3>Re-Enter Your Password</h3></div>
 		<form method="post">
 			<div class="col-md-4"></div>
@@ -49,7 +53,7 @@
 		if($pre_pass===$pass && $pass!==''){
 			header('location: user_check.php?u='.$_SESSION['username']);
 		}else{
-			echo('Please Enter Your Password Correctly!');
+			echo('Please! Enter Your Password Correctly!');
 		}
 	
 	}

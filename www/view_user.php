@@ -20,18 +20,20 @@
         <thead>
             <tr class="row">
                 <th class="col-md-1 text-center b_1"><label for="">User ID</label></th>
-                <th class="col-md-4 text-center b_1"><label for="">User's Name</label></th>
-                <th class="col-md-3 text-center b_1"><label for="">User's Role</label></th>
-                <th class="col-md-3 text-center b_1"><label for="">username</label></th>
+                <th class="col-md-4 text-center b_1"><label for="">Name</label></th>
+                <th class="col-md-4 text-center textone b_1"><label for="">Degree</label></th>
+                <th class="col-md-1 text-center textone b_1"><label for="">Role</label></th>
+                <th class="col-md-1 text-center textone b_1"><label for="">username</label></th>
                 <th class="col-md-1 text-center b_1"><label for="">Manage</label></th>
             </tr>
         </thead>
 		<tfoot>
             <tr class="row">
                 <th class="col-md-1 text-center bb_1 b_1"><label for="">User ID</label></th>
-                <th class="col-md-4 text-center bb_1 b_1"><label for="">User's Name</label></th>
-                <th class="col-md-3 text-center bb_1 b_1"><label for="">User's Role</label></th>
-                <th class="col-md-3 text-center bb_1 b_1"><label for="">username</label></th>
+                <th class="col-md-4 text-center bb_1 b_1"><label for="">Name</label></th>
+                <th class="col-md-4 text-center textone bb_1 b_1"><label for="">Degree</label></th>
+                <th class="col-md-1 text-center textone bb_1 b_1"><label for="">Role</label></th>
+                <th class="col-md-1 text-center textone bb_1 b_1"><label for="">username</label></th>
                 <th class="col-md-1 text-center bb_1 b_1"><label for="">Manage</label></th>
             </tr>
         </tfoot>
@@ -40,8 +42,9 @@
 		<tr class="row hover">
                 <td class="col-md-2 bb_1 b_1"><label for=""><?php echo $data['id']; ?></label></td>
                 <td class="col-md-4 bb_1 textone b_1"><label for=""><?php echo $data['name']; ?></label></td>
-                <td class="col-md-3 bb_1 textone b_1 text-capitalize"><label for=""><?php echo $data['role']; ?></label></td>
-                <td class="col-md-3 bb_1 textone b_1"><label for=""><?php echo $data['username']; ?></label></td>
+                <td class="col-md-4 bb_1 textone b_1"><label for=""><?php echo $data['degree']; ?></label></td>
+                <td class="col-md-1 bb_1 textone b_1 text-capitalize"><label for=""><?php echo $data['role']; ?></label></td>
+                <td class="col-md-1 bb_1 textone b_1"><label for=""><?php echo $data['username']; ?></label></td>
                 <td class="col-md-3 bb_1 b_1">
                 <label for="">
                 	<a class="manag<?php if($_SESSION['role']!=='boss'){ echo(' btn hidden');}elseif($data['id']===$_SESSION['id']){ echo(' btn hidden'); } ?>" id="delete" href="user_modify.php?u=<?php echo $data['id']; ?>"> Block</a>

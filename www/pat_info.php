@@ -53,7 +53,7 @@
    				  </div>
    				  <div class="col-md-4 form_row">
    				  	<label for="p_age">BDT:</label>
-   				  	<input type="number" name="pat_amount" id="p_age" value="<?php echo $datasub['pat_amount']; ?>" placeholder="Amount Taken" required>
+   				  	<input type="number" name="pat_amount" id="p_age" placeholder="Amount Taken" required>
    				  </div>
    				  <div class="col-md-4 form_row">
 						<label>Test: </label>
@@ -163,7 +163,7 @@
 		date_default_timezone_set('Asia/Dhaka');      
 		$date=date("Y/M/d h:i:sa");
 		
-	if($specimen1==='xray'){ $doc_amount=100; }else{ $doc_amount=$pat_amount/2; }
+	if($specimen1==='xray'){ $doc_amount=50; }else{ $doc_amount=$pat_amount/2; }
 		$insert="INSERT INTO patient (p_id,p_datetime,p_name,p_age,sex,doctor_id,specimen1,specimen2,specimen3,status,pat_amount,doc_amount,whenadded) VALUES ('$p_id','$datetime','$p_name','$p_age','$p_sex','$doctor','$specimen1','$specimen2','$specimen3','1','$pat_amount','$doc_amount','$date')";
     
     			if($db->exec($insert)){

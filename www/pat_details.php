@@ -14,6 +14,12 @@
 	$test_qry= $db-> query($test_ref);
 	$test_code_sel= "SELECT * FROM tast_code WHERE t_code='$specimen1' OR t_code='$specimen2' OR t_code='$specimen3'" ;
 	$test_code_qry= $db-> query($test_code_sel);
+		
+	$loggedUser=$_SESSION['username'];
+	$selectUser= "SELECT * FROM users WHERE username='$loggedUser'";
+	$loggedUserQry=$db-> query($selectUser);
+	$loggedUserDetail= $loggedUserQry-> fetchArray(SQLITE3_ASSOC);
+		
 	
 	if($specimen1==="xray"){
 		$xray=$test_qry->fetchArray(SQLITE3_ASSOC);
@@ -31,31 +37,31 @@
 			<a title="Back" class="back_button" href="javascript: history.go(-1)"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
 		</div>
 		<div class="col-md-7 b_1">
-			<p class="report_print">Patient ID: <?php echo $data['p_id']; ?></p>
+			<p class="report_print">Patient ID: <big> <?php echo $data['p_id']; ?></big></p>
 		</div>
 		<div class="col-md-5 b_1">
-			<p class="report_print">LAB ID: <?php echo $data['lab_id']; ?></p>
+			<p class="report_print">LAB ID: <big><?php echo $data['lab_id']; ?></big></p>
 		</div>
 		<div class="col-md-8 b_1">
-			<p class="report_print"> Patient's Name: <b><?php echo $data['p_name']; ?></b></p>
+			<p class="report_print"> Patient's Name: <b><big><?php echo $data['p_name']; ?></big></b></p>
 		</div>
 		<div class="col-md-2 textone b_1">
-			<p class="report_print"> Age: <?php echo $data['p_age'].'Years'; ?></p>
+			<p class="report_print"> Age: <big><?php echo $data['p_age'].'Years'; ?></big></p>
 		</div>
 		<div class="col-md-2 b_1 textone text-capitalize">
-			<p class="report_print">Sex: <?php echo $data['sex']; ?></p>
+			<p class="report_print">Sex: <big><?php echo $data['sex']; ?></big></p>
 		</div>
 		<div class="col-md-12 b_1">
-			<p class="report_print">Delivery Date & Time: <?php echo $data['p_datetime']; ?></p>
+			<p class="report_print">Delivery Date & Time: <big><?php echo $data['p_datetime']; ?></big></p>
 		</div>
 		<div class="col-md-12 b_1">
-		<p class="report_print">Referred by Dr./ Prof.: <?php 
+		<p class="report_print">Referred by Dr./ Prof.: <big><?php 
 			$doctorsub = $data['doctor_id'];
 			$seldoc= "SELECT * FROM doctor WHERE doctor_id=$doctorsub";
 			$resdoc= $db-> query($seldoc);
 			$data=$resdoc-> fetchArray(SQLITE3_ASSOC);
-			echo $data['d_name']."	".$data['degree'];
-			?></p>
+			echo $data['d_name']."	<sub>".$data['degree']."</sub>";
+			?></big></p>
 		</div>
 		<?php if($specimen1==="xray"){ ?>
 		<div class="col-md-12 b_1 bb_1">
@@ -178,8 +184,8 @@
 </section>
 <?php } if($specimen1!=="xray"){ ?>
 <div class="text-left" id="sign">
-	<b><u><i>MD. NURUZZAMAN</i></u></b><br>
-	<p>Medical Technologist (LAB)<br>I.I.H.S (Dhaka) <br> Katiadi Diagnostic Center (KDC)</p>
+	<b><u><i style="text-transform: uppercase;"><?php echo $loggedUserDetail['name']; ?></i></u></b><br>
+	<p><?php echo $loggedUserDetail['degree']; ?><br><?php echo $loggedUserDetail['desig']; ?> <br> Katiadi Diagnostic Center (KDC)</p>
 </div>
 <?php } ?>
 <div class="col-md-12 text-center mt_50">

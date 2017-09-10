@@ -389,8 +389,8 @@ footer{
 
 @media print{
 	@page{
-		size: 210mm 276mm;
-		margin: 40mm 15mm 12mm;
+		size: 210mm 280mm;
+		margin: 22mm 15mm 0mm;
 	}
 	
 	h2, hr{
@@ -474,7 +474,7 @@ footer{
 	#sign{
 		display: block;
 		position: fixed;
-		bottom: 2mm;
+		bottom: 0mm;
 		right: -35mm;
 		width: 55mm;
 	}

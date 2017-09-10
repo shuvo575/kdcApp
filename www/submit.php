@@ -62,7 +62,16 @@
 		</div>
 	</div>
 </section>
-<hr><hr>
+<hr>
+	<section class="container-fluid text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<h3 style="color: red;">To <b>Bold</b> Any Result Add <span style="background-color: yellow;">&lt;b&gt;</span> Before The Result And Add <span style="background-color: yellow;">&lt;/b&gt;</span> After The Result!</h3>
+				<h4>As like <span style="background-color: yellow;">&lt;b&gt;2.5mg/DL&lt;/b&gt;</span> will be <span style="background-color: yellow;"><b>2.5mg/DL</b></span> in Print!</h4>
+			</div>
+		</div>
+	</section>
+<hr>
 
 <section class="container-fluid text-center" id="test_list" >
     	<div class="row">

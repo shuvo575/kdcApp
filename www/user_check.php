@@ -16,7 +16,16 @@
 			<div class="col-md-4">
 				<div class="col-md-12 form_row" style="margin-bottom: 15px;"><input class="text-center" type="password" name="pass" placeholder="Enter New Password" required></div>
 				<div class="col-md-12 form_row" style="margin-bottom: 15px;"><input class="text-center" type="password" name="pass2" placeholder="Re-Enter New Password" required></div>
-				<div class="col-md-12 text-center"><input type="submit" value="Change Password" id="go"></div>
+				<div class="col-md-12 text-center">
+					<div class="row">
+						<div class="col-md-5">
+							<a class="cancel_button" style="top: 0px; right: 30px;" href="user.php?u=<?php echo $_SESSION['username']; ?>&s=n">Cancel</a>
+						</div>
+						<div class="col-md-7">
+							<input type="submit" value="Change Password" id="go">
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-4"></div>
 		</form>

@@ -18,7 +18,7 @@
 		<table id="datatable" class="container-fluid" cellspacing="0">
         <thead>
             <tr class="row">
-                <th class="col-md-2 text-center b_1"><label for="">Doctor ID</label></th>
+                <th class="col-md-2 text-center textone b_1"><label for="">Doctor ID</label></th>
                 <th class="col-md-4 text-center b_1"><label for="">Doctor's Name</label></th>
                 <th class="col-md-3 text-center b_1"><label for="">Doctor's Degree</label></th>
                 <th class="col-md-3 text-center b_1"><label for="">Manage</label></th>
@@ -26,7 +26,7 @@
         </thead>
 		<tfoot>
             <tr class="row">
-                <th class="col-md-2 text-center bb_1 b_1"><label for="">Doctor ID</label></th>
+                <th class="col-md-2 text-center textone bb_1 b_1"><label for="">Doctor ID</label></th>
                 <th class="col-md-4 text-center bb_1 b_1"><label for="">Doctor's Name</label></th>
                 <th class="col-md-3 text-center bb_1 b_1"><label for="">Doctor's Degree</label></th>
                 <th class="col-md-3 text-center bb_1 b_1"><label for="">Manage</label></th>

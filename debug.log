@@ -35894,3 +35894,2173 @@ Backtrace:
 [0910/141601:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:63440/js/main.js (15)
 - 14:16:01.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63440/login.php
 [0910/160116:ERROR:ipc_channel_win.cc(207)] pipe error: 109
+- 18:14:17.031 INFO: --------------------------------------------------------
+- 18:14:17.031 INFO: Started application
+- 18:14:17.031 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 18:14:17.031 INFO: Log level = DEBUG4
+- 18:14:17.047 INFO: Starting Mongoose 3.9c web server
+- 18:14:17.047 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 18:14:17.047 INFO: Index files: index.html,index.php
+- 18:14:17.047 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 18:14:17.047 INFO: CGI pattern: **.php$
+- 18:14:17.047 INFO: Hide files patterns: 
+- 18:14:17.047 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 18:14:17.047 INFO: Web server url: http://127.0.0.1:60718/
+- 18:14:17.047 INFO: remote_debugging_port = 49823
+- 18:14:17.141 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=49823
+- 18:14:19.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="34620.0.1976213886\1744199267" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 18:14:19.000 DEBUG: App::OnContextInitialized()
+- 18:14:19.000 DEBUG: Window max width/height = 1286/690
+- 18:14:19.047 DEBUG: GetBrowserWindow(): not found, hwnd = 132424
+- 18:14:19.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:14:19.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:14:19.062 DEBUG: StoreBrowserWindow(): hwnd = 132424
+- 18:14:20.312 DEBUG: ClientHandler::OnAfterCreated()
+- 18:14:20.312 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:14:20.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="34620.1.51903860\1622581222" /prefetch:673131151
+- 18:14:20.500 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:14:20.703 DEBUG: OnBrowserCreated()
+- 18:14:23.812 INFO: GET 302 /
+- 18:14:23.016 INFO: GET 200 /login.php
+- 18:14:23.547 DEBUG: OnContextCreated()
+- 18:14:23.031 INFO: GET 200 /css/main.css
+- 18:14:23.047 INFO: GET 200 /js/main.js
+- 18:14:23.047 INFO: GET 200 /css/style.css
+- 18:14:23.062 INFO: GET 200 /pics/logo.png
+- 18:14:23.094 INFO: GET 200 /css/bootstrap.css
+- 18:14:23.141 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 18:14:24.234 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 18:14:24.266 INFO: GET 200 /pics/bg.png
+- 18:14:24.312 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 18:14:24.344 INFO: GET 200 /fonts/Raleway-Regular.ttf
+[0910/181424:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:60718/js/main.js (15)
+- 18:14:24.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/login.php
+- 18:14:35.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/login.php
+- 18:14:35.937 INFO: POST 302 /login.php
+- 18:14:35.547 DEBUG: OnContextCreated()
+- 18:14:35.016 INFO: GET 200 /index.php
+- 18:14:35.047 INFO: GET 200 /css/dataTable.css
+- 18:14:35.047 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 18:14:35.094 INFO: GET 200 /js/bootstrap.js
+- 18:14:35.141 INFO: GET 200 /js/moment.js
+- 18:14:35.141 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 18:14:36.203 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 18:14:36.328 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 18:14:36.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 18:14:41.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 18:14:41.047 DEBUG: OnContextCreated()
+- 18:14:41.516 INFO: GET 200 /view_doctor.php
+- 18:14:41.703 INFO: GET 404 /images/sort_both.png
+- 18:14:41.734 INFO: GET 404 /images/sort_asc.png
+- 18:14:41.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:15:45.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:15:46.875 DEBUG: OnContextCreated()
+- 18:15:46.422 INFO: GET 200 /view_patient.php
+- 18:15:46.734 INFO: GET 404 /images/sort_both.png
+- 18:15:46.891 INFO: GET 404 /images/sort_desc.png
+- 18:15:46.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 18:15:47.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 18:15:47.906 DEBUG: OnContextCreated()
+- 18:15:47.406 INFO: GET 200 /last_patient.php
+- 18:15:47.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 18:16:10.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 18:16:10.531 DEBUG: OnContextCreated()
+- 18:16:10.031 INFO: GET 200 /view_patient.php
+- 18:16:11.312 INFO: GET 404 /images/sort_both.png
+- 18:16:11.437 INFO: GET 404 /images/sort_desc.png
+- 18:16:11.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 18:16:13.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 18:16:13.500 DEBUG: OnContextCreated()
+- 18:16:13.969 INFO: GET 200 /view_doctor.php
+- 18:16:13.062 INFO: GET 404 /images/sort_both.png
+- 18:16:13.094 INFO: GET 404 /images/sort_asc.png
+- 18:16:13.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:16:15.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:16:16.828 DEBUG: OnContextCreated()
+- 18:16:16.312 INFO: GET 200 /doc_trash.php
+- 18:16:16.453 INFO: GET 404 /images/sort_both.png
+- 18:16:16.469 INFO: GET 404 /images/sort_asc.png
+- 18:16:16.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_trash.php
+- 18:16:22.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_trash.php
+- 18:16:22.453 DEBUG: OnContextCreated()
+- 18:16:22.953 INFO: GET 200 /view_doctor.php
+- 18:16:22.109 INFO: GET 404 /images/sort_both.png
+- 18:16:22.125 INFO: GET 404 /images/sort_asc.png
+- 18:16:22.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:16:33.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:16:34.734 DEBUG: OnContextCreated()
+- 18:16:34.219 INFO: GET 200 /doc_edit.php?d=13
+- 18:16:34.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_edit.php?d=13
+- 18:16:40.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_edit.php?d=13
+- 18:16:40.531 INFO: POST 302 /doc_edit.php?d=13
+- 18:16:40.172 DEBUG: OnContextCreated()
+- 18:16:40.656 INFO: GET 200 /doc_details.php?d=13
+- 18:16:40.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_details.php?d=13
+- 18:16:42.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_details.php?d=13
+- 18:16:42.093 DEBUG: OnContextCreated()
+- 18:16:42.562 INFO: GET 200 /doc_edit.php?d=13
+- 18:16:42.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_edit.php?d=13
+- 18:16:45.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_edit.php?d=13
+- 18:16:46.750 DEBUG: OnContextCreated()
+- 18:16:46.219 INFO: GET 200 /doc_details.php?d=13
+- 18:16:46.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_details.php?d=13
+- 18:16:50.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_details.php?d=13
+- 18:16:51.734 DEBUG: OnContextCreated()
+- 18:16:51.203 INFO: GET 200 /view_doctor.php
+- 18:16:51.281 INFO: GET 404 /images/sort_both.png
+- 18:16:51.312 INFO: GET 404 /images/sort_asc.png
+- 18:16:51.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:17:03.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:17:03.953 DEBUG: OnContextCreated()
+- 18:17:03.422 INFO: GET 200 /doc_edit.php?d=13
+- 18:17:03.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_edit.php?d=13
+- 18:17:07.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_edit.php?d=13
+- 18:17:07.641 INFO: POST 302 /doc_edit.php?d=13
+- 18:17:07.265 DEBUG: OnContextCreated()
+- 18:17:07.734 INFO: GET 200 /doc_details.php?d=13
+- 18:17:07.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_details.php?d=13
+- 18:17:08.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_details.php?d=13
+- 18:17:09.765 DEBUG: OnContextCreated()
+- 18:17:09.250 INFO: GET 200 /view_doctor.php
+- 18:17:09.328 INFO: GET 404 /images/sort_both.png
+- 18:17:09.344 INFO: GET 404 /images/sort_asc.png
+- 18:17:09.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:17:19.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:17:19.156 DEBUG: OnContextCreated()
+- 18:17:19.625 INFO: GET 200 /doc_edit.php?d=9
+- 18:17:19.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_edit.php?d=9
+- 18:17:22.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_edit.php?d=9
+- 18:17:23.765 DEBUG: OnContextCreated()
+- 18:17:23.234 INFO: GET 200 /doc_details.php?d=9
+- 18:17:23.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_details.php?d=9
+- 18:17:26.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_details.php?d=9
+- 18:17:26.687 DEBUG: OnContextCreated()
+- 18:17:26.156 INFO: GET 200 /doc_edit.php?d=9
+- 18:17:27.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/doc_edit.php?d=9
+- 18:17:29.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/doc_edit.php?d=9
+- 18:17:29.172 DEBUG: OnContextCreated()
+- 18:17:29.641 INFO: GET 200 /view_doctor.php
+- 18:17:29.734 INFO: GET 404 /images/sort_both.png
+- 18:17:29.750 INFO: GET 404 /images/sort_asc.png
+- 18:17:29.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:17:33.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:17:33.672 INFO: GET 302 /delete_doc.php?d=9
+- 18:17:33.281 DEBUG: OnContextCreated()
+- 18:17:33.750 INFO: GET 200 /view_doctor.php
+- 18:17:33.828 INFO: GET 404 /images/sort_both.png
+- 18:17:33.859 INFO: GET 404 /images/sort_asc.png
+- 18:17:33.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:04.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:05.781 DEBUG: OnContextCreated()
+- 18:18:05.250 INFO: GET 200 /view_doctor.php
+- 18:18:05.344 INFO: GET 404 /images/sort_both.png
+- 18:18:05.359 INFO: GET 404 /images/sort_asc.png
+- 18:18:05.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:06.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:06.218 DEBUG: OnContextCreated()
+- 18:18:06.687 INFO: GET 200 /view_doctor.php
+- 18:18:06.781 INFO: GET 404 /images/sort_both.png
+- 18:18:06.812 INFO: GET 404 /images/sort_asc.png
+- 18:18:06.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:07.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:07.250 DEBUG: OnContextCreated()
+- 18:18:07.719 INFO: GET 200 /view_doctor.php
+- 18:18:07.812 INFO: GET 404 /images/sort_both.png
+- 18:18:07.828 INFO: GET 404 /images/sort_asc.png
+- 18:18:07.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:09.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:09.562 DEBUG: OnContextCreated()
+- 18:18:09.047 INFO: GET 200 /view_patient.php
+- 18:18:10.266 INFO: GET 404 /images/sort_both.png
+- 18:18:10.375 INFO: GET 404 /images/sort_desc.png
+- 18:18:10.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 18:18:11.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 18:18:11.640 DEBUG: OnContextCreated()
+- 18:18:11.125 INFO: GET 200 /view_doctor.php
+- 18:18:12.234 INFO: GET 404 /images/sort_both.png
+- 18:18:12.250 INFO: GET 404 /images/sort_asc.png
+- 18:18:12.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:13.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:13.250 DEBUG: OnContextCreated()
+- 18:18:13.734 INFO: GET 200 /view_patient.php
+- 18:18:13.953 INFO: GET 404 /images/sort_both.png
+- 18:18:13.047 INFO: GET 404 /images/sort_desc.png
+- 18:18:13.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 18:18:14.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 18:18:14.156 DEBUG: OnContextCreated()
+- 18:18:14.625 INFO: GET 200 /view_doctor.php
+- 18:18:14.703 INFO: GET 404 /images/sort_both.png
+- 18:18:14.719 INFO: GET 404 /images/sort_asc.png
+- 18:18:14.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:42.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:42.515 DEBUG: OnContextCreated()
+- 18:18:42.984 INFO: GET 200 /view_doctor.php
+- 18:18:42.078 INFO: GET 404 /images/sort_both.png
+- 18:18:42.094 INFO: GET 404 /images/sort_asc.png
+- 18:18:42.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:57.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_doctor.php
+- 18:18:57.453 DEBUG: OnContextCreated()
+- 18:18:57.937 INFO: GET 200 /view_patient.php
+- 18:18:57.141 INFO: GET 404 /images/sort_both.png
+- 18:18:58.266 INFO: GET 404 /images/sort_desc.png
+- 18:18:58.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 18:18:59.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 18:18:59.531 DEBUG: OnContextCreated()
+- 18:18:59.000 INFO: GET 200 /last_patient.php
+- 18:18:59.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 18:24:03.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 18:24:06.797 INFO: GET 302 /logout.php
+- 18:24:06.094 INFO: GET 302 /index.php
+- 18:24:07.047 DEBUG: OnContextCreated()
+- 18:24:07.516 INFO: GET 200 /login.php
+- 18:24:07.609 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+[0910/182407:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:60718/js/main.js (15)
+- 18:24:07.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/login.php
+- 19:51:15.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/login.php
+- 19:51:19.531 INFO: POST 302 /login.php
+- 19:51:19.703 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:60718/index.php
+- 19:51:19.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/login.php
+- 19:51:19.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/login.php
+- 19:51:19.891 INFO: GET 200 /index.php
+- 19:51:19.922 INFO: POST 302 /login.php
+- 19:51:19.000 INFO: GET 200 /index.php
+- 19:51:20.109 DEBUG: OnContextCreated()
+- 19:51:21.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 19:51:22.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 19:51:22.062 INFO: GET 200 /user.php?u=anafi&s=n
+- 19:51:22.593 DEBUG: OnContextCreated()
+- 19:51:23.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 19:51:25.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 19:51:25.734 INFO: GET 200 /add_user.php
+- 19:51:25.281 DEBUG: OnContextCreated()
+- 19:51:25.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 19:56:03.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 19:56:03.500 DEBUG: OnContextCreated()
+- 19:56:03.969 INFO: GET 200 /user.php?u=anafi&s=n
+- 19:56:03.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 19:56:06.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 19:56:06.390 DEBUG: OnContextCreated()
+- 19:56:06.859 INFO: GET 200 /add_user.php
+- 19:56:06.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 19:56:14.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 19:56:14.375 DEBUG: OnContextCreated()
+- 19:56:14.859 INFO: GET 200 /user.php?u=anafi&s=n
+- 19:56:14.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 19:58:00.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 19:58:00.812 INFO: GET 200 /add_user.php
+- 19:58:00.375 DEBUG: OnContextCreated()
+- 19:58:00.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 19:59:51.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 19:59:51.250 DEBUG: OnContextCreated()
+- 19:59:51.719 INFO: GET 200 /user.php?u=anafi&s=n
+- 19:59:51.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 19:59:52.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 19:59:52.187 DEBUG: OnContextCreated()
+- 19:59:52.656 INFO: GET 200 /add_user.php
+- 19:59:52.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:00:10.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:00:10.453 DEBUG: OnContextCreated()
+- 20:00:10.937 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:00:10.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:00:47.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:00:47.562 DEBUG: OnContextCreated()
+- 20:00:47.047 INFO: GET 200 /add_user.php
+- 20:00:47.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:01:06.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:01:06.515 DEBUG: OnContextCreated()
+- 20:01:06.984 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:01:06.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:01:07.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:01:07.297 DEBUG: OnContextCreated()
+- 20:01:07.766 INFO: GET 200 /add_user.php
+- 20:01:07.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:02:45.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:02:45.109 DEBUG: OnContextCreated()
+- 20:02:45.578 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:02:45.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:02:46.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:02:46.125 DEBUG: OnContextCreated()
+- 20:02:46.609 INFO: GET 200 /add_user.php
+- 20:02:46.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:03:13.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:03:14.734 DEBUG: OnContextCreated()
+- 20:03:14.219 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:03:14.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:03:15.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:03:15.984 DEBUG: OnContextCreated()
+- 20:03:15.453 INFO: GET 200 /add_user.php
+- 20:03:15.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:03:52.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:03:52.297 DEBUG: OnContextCreated()
+- 20:03:52.781 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:03:52.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:03:53.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:03:53.187 DEBUG: OnContextCreated()
+- 20:03:53.672 INFO: GET 200 /add_user.php
+- 20:03:53.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:04:39.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:04:39.203 DEBUG: OnContextCreated()
+- 20:04:39.672 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:04:39.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:04:40.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:04:40.078 DEBUG: OnContextCreated()
+- 20:04:40.562 INFO: GET 200 /add_user.php
+- 20:04:40.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:05:14.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:05:14.437 DEBUG: OnContextCreated()
+- 20:05:14.906 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:05:14.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:05:15.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:05:15.359 DEBUG: OnContextCreated()
+- 20:05:15.844 INFO: GET 200 /add_user.php
+- 20:05:15.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:06:24.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:06:24.156 DEBUG: OnContextCreated()
+- 20:06:24.625 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:06:24.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:06:25.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:06:25.828 DEBUG: OnContextCreated()
+- 20:06:25.297 INFO: GET 200 /add_user.php
+- 20:06:25.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:07:19.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:07:19.515 DEBUG: OnContextCreated()
+- 20:07:19.984 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:07:19.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:07:20.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:07:20.265 DEBUG: OnContextCreated()
+- 20:07:20.734 INFO: GET 200 /add_user.php
+- 20:07:20.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:07:42.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:07:42.312 DEBUG: OnContextCreated()
+- 20:07:42.781 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:07:42.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:07:43.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:07:43.968 DEBUG: OnContextCreated()
+- 20:07:43.453 INFO: GET 200 /add_user.php
+- 20:07:43.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:09:03.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:09:03.984 DEBUG: OnContextCreated()
+- 20:09:03.469 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:09:03.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:09:04.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:09:04.875 DEBUG: OnContextCreated()
+- 20:09:04.359 INFO: GET 200 /add_user.php
+- 20:09:04.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:09:54.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:09:54.375 DEBUG: OnContextCreated()
+- 20:09:54.844 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:09:54.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:09:55.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:09:55.125 DEBUG: OnContextCreated()
+- 20:09:55.594 INFO: GET 200 /add_user.php
+- 20:09:55.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:10:38.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:10:38.906 DEBUG: OnContextCreated()
+- 20:10:38.375 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:10:38.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:10:39.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:10:39.828 DEBUG: OnContextCreated()
+- 20:10:39.297 INFO: GET 200 /add_user.php
+- 20:10:39.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:11:25.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:11:25.062 DEBUG: OnContextCreated()
+- 20:11:25.531 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:11:25.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:11:26.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:11:26.047 DEBUG: OnContextCreated()
+- 20:11:26.516 INFO: GET 200 /add_user.php
+- 20:11:26.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:12:11.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:12:11.156 DEBUG: OnContextCreated()
+- 20:12:11.641 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:12:11.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:12:12.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:12:12.937 DEBUG: OnContextCreated()
+- 20:12:12.406 INFO: GET 200 /add_user.php
+- 20:12:12.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:12:41.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:12:41.593 DEBUG: OnContextCreated()
+- 20:12:41.078 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:12:41.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:12:42.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:12:42.359 DEBUG: OnContextCreated()
+- 20:12:42.844 INFO: GET 200 /add_user.php
+- 20:12:42.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:12:52.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:12:52.875 DEBUG: OnContextCreated()
+- 20:12:52.359 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:12:52.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:12:52.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:12:53.797 DEBUG: OnContextCreated()
+- 20:12:53.297 INFO: GET 200 /add_user.php
+- 20:12:53.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:13:23.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:13:23.687 DEBUG: OnContextCreated()
+- 20:13:23.156 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:13:24.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:13:24.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:13:24.500 DEBUG: OnContextCreated()
+- 20:13:24.984 INFO: GET 200 /add_user.php
+- 20:13:24.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:13:38.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:13:38.937 DEBUG: OnContextCreated()
+- 20:13:38.422 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:13:38.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:13:39.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:13:39.875 DEBUG: OnContextCreated()
+- 20:13:39.344 INFO: GET 200 /add_user.php
+- 20:13:39.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:13:56.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:13:56.093 DEBUG: OnContextCreated()
+- 20:13:56.578 INFO: GET 200 /user.php?u=anafi&s=n
+- 20:13:56.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:13:57.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=anafi&s=n
+- 20:13:57.031 DEBUG: OnContextCreated()
+- 20:13:57.500 INFO: GET 200 /add_user.php
+- 20:13:57.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:15:11.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:15:12.812 DEBUG: OnContextCreated()
+- 20:15:12.328 INFO: GET 200 /view_patient.php
+- 20:15:12.594 INFO: GET 404 /images/sort_both.png
+- 20:15:12.687 INFO: GET 404 /images/sort_desc.png
+- 20:15:12.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 20:15:14.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 20:15:15.750 DEBUG: OnContextCreated()
+- 20:15:15.219 INFO: GET 200 /index.php
+- 20:15:15.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 20:15:17.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 20:15:17.734 INFO: POST 302 /index.php
+- 20:15:17.390 DEBUG: OnContextCreated()
+- 20:15:17.859 INFO: GET 200 /pat_info.php?p_id=152
+- 20:15:17.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/pat_info.php?p_id=152
+- 20:15:53.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/pat_info.php?p_id=152
+- 20:15:54.718 DEBUG: OnContextCreated()
+- 20:15:54.203 INFO: POST 200 /pat_info.php?p_id=152
+- 20:15:54.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/pat_info.php?p_id=152
+- 20:16:31.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/pat_info.php?p_id=152
+- 20:16:31.391 INFO: POST 302 /pat_info.php?p_id=152
+- 20:16:31.125 DEBUG: OnContextCreated()
+- 20:16:31.594 INFO: GET 200 /submit.php
+- 20:16:31.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/submit.php
+- 20:16:33.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/submit.php
+- 20:16:34.250 INFO: POST 302 /submit.php
+- 20:16:34.922 DEBUG: OnContextCreated()
+- 20:16:34.391 INFO: GET 200 /last_patient.php
+- 20:16:34.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 20:16:35.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 20:16:36.718 DEBUG: OnContextCreated()
+- 20:16:36.219 INFO: GET 200 /view_patient.php
+- 20:16:36.437 INFO: GET 404 /images/sort_both.png
+- 20:16:36.594 INFO: GET 404 /images/sort_desc.png
+- 20:16:36.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 20:16:39.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 20:16:39.093 DEBUG: OnContextCreated()
+- 20:16:39.562 INFO: GET 200 /index.php
+- 20:16:39.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 20:16:42.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 20:16:42.500 INFO: POST 302 /index.php
+- 20:16:42.109 DEBUG: OnContextCreated()
+- 20:16:42.578 INFO: GET 200 /pat_info.php?p_id=154
+- 20:16:42.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/pat_info.php?p_id=154
+- 20:17:04.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/pat_info.php?p_id=154
+- 20:17:05.312 INFO: POST 302 /pat_info.php?p_id=154
+- 20:17:05.922 DEBUG: OnContextCreated()
+- 20:17:05.391 INFO: GET 200 /submit.php
+- 20:17:05.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/submit.php
+- 20:17:06.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/submit.php
+- 20:17:07.250 INFO: POST 302 /submit.php
+- 20:17:07.843 DEBUG: OnContextCreated()
+- 20:17:07.328 INFO: GET 200 /last_patient.php
+- 20:17:07.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 20:17:11.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 20:17:11.062 DEBUG: OnContextCreated()
+- 20:17:11.547 INFO: GET 200 /submit.php
+- 20:17:11.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/submit.php
+- 20:17:22.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/submit.php
+- 20:17:22.547 DEBUG: OnContextCreated()
+- 20:17:22.047 INFO: GET 200 /view_patient.php
+- 20:17:23.375 INFO: GET 404 /images/sort_both.png
+- 20:17:23.516 INFO: GET 404 /images/sort_desc.png
+- 20:17:23.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 20:17:46.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 20:17:46.719 INFO: GET 200 /index.php
+- 20:17:46.250 DEBUG: OnContextCreated()
+- 20:17:46.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 20:17:50.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 20:17:50.484 INFO: POST 302 /index.php
+- 20:17:50.078 DEBUG: OnContextCreated()
+- 20:17:50.547 INFO: GET 200 /pat_info.php?p_id=36
+- 20:17:50.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/pat_info.php?p_id=36
+- 20:18:05.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/pat_info.php?p_id=36
+- 20:18:05.047 INFO: POST 302 /pat_info.php?p_id=36
+- 20:18:05.640 DEBUG: OnContextCreated()
+- 20:18:05.109 INFO: GET 200 /submit.php
+- 20:18:05.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/submit.php
+- 20:18:08.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/submit.php
+- 20:18:09.937 INFO: POST 302 /submit.php
+- 20:18:09.547 DEBUG: OnContextCreated()
+- 20:18:09.031 INFO: GET 200 /last_patient.php
+- 20:18:09.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 20:18:11.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 20:18:11.312 DEBUG: OnContextCreated()
+- 20:18:11.812 INFO: GET 200 /view_patient.php
+- 20:18:11.031 INFO: GET 404 /images/sort_both.png
+- 20:18:11.141 INFO: GET 404 /images/sort_desc.png
+- 20:18:11.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 20:18:25.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 20:18:26.281 INFO: GET 200 /index.php
+- 20:18:26.812 DEBUG: OnContextCreated()
+- 20:18:26.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 20:18:28.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 20:18:28.937 DEBUG: OnContextCreated()
+- 20:18:28.422 INFO: GET 200 /search_pat.php?search=36&go=Search
+- 20:18:28.531 INFO: GET 404 /images/sort_both.png
+- 20:18:28.547 INFO: GET 404 /images/sort_desc.png
+- 20:18:28.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/search_pat.php?search=36&go=Search
+- 20:18:45.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/search_pat.php?search=36&go=Search
+- 20:18:45.984 DEBUG: OnContextCreated()
+- 20:18:45.453 INFO: GET 200 /index.php
+- 20:18:45.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 20:23:51.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 20:23:51.500 INFO: GET 302 /logout.php
+- 20:23:51.578 INFO: GET 302 /index.php
+- 20:23:51.172 DEBUG: OnContextCreated()
+- 20:23:51.641 INFO: GET 200 /login.php
+- 20:23:51.734 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+[0910/202351:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:60718/js/main.js (15)
+- 20:23:51.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/login.php
+- 20:25:32.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/login.php
+- 20:25:33.203 INFO: POST 302 /login.php
+- 20:25:33.812 DEBUG: OnContextCreated()
+- 20:25:33.297 INFO: GET 200 /index.php
+- 20:25:33.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 20:25:34.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 20:25:34.578 DEBUG: OnContextCreated()
+- 20:25:34.062 INFO: GET 200 /user.php?u=boss&s=n
+- 20:25:34.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:25:36.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:25:36.359 DEBUG: OnContextCreated()
+- 20:25:36.828 INFO: GET 200 /view_user.php
+- 20:25:36.906 INFO: GET 404 /images/sort_both.png
+- 20:25:36.922 INFO: GET 404 /images/sort_asc.png
+- 20:25:36.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:26:43.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:26:44.765 DEBUG: OnContextCreated()
+- 20:26:44.250 INFO: GET 200 /user.php?u=boss&s=n
+- 20:26:44.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:27:37.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:27:37.297 DEBUG: OnContextCreated()
+- 20:27:37.766 INFO: GET 200 /view_user.php
+- 20:27:37.844 INFO: GET 404 /images/sort_both.png
+- 20:27:37.859 INFO: GET 404 /images/sort_asc.png
+- 20:27:37.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:31:08.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:31:09.765 DEBUG: OnContextCreated()
+- 20:31:09.234 INFO: GET 200 /user.php?u=boss&s=n
+- 20:31:09.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:31:09.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:31:09.656 DEBUG: OnContextCreated()
+- 20:31:09.141 INFO: GET 200 /view_user.php
+- 20:31:10.219 INFO: GET 404 /images/sort_both.png
+- 20:31:10.250 INFO: GET 404 /images/sort_asc.png
+- 20:31:10.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:32:24.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:32:24.031 DEBUG: OnContextCreated()
+- 20:32:24.500 INFO: GET 200 /user.php?u=boss&s=n
+- 20:32:24.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:32:25.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:32:25.828 DEBUG: OnContextCreated()
+- 20:32:25.312 INFO: GET 200 /view_user.php
+- 20:32:25.391 INFO: GET 404 /images/sort_both.png
+- 20:32:25.406 INFO: GET 404 /images/sort_asc.png
+- 20:32:25.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:32:52.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:32:52.890 DEBUG: OnContextCreated()
+- 20:32:52.359 INFO: GET 200 /user.php?u=boss&s=n
+- 20:32:52.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:32:53.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:32:53.656 DEBUG: OnContextCreated()
+- 20:32:53.156 INFO: GET 200 /view_user.php
+- 20:32:54.250 INFO: GET 404 /images/sort_both.png
+- 20:32:54.266 INFO: GET 404 /images/sort_asc.png
+- 20:32:54.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:33:09.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:33:09.656 DEBUG: OnContextCreated()
+- 20:33:09.125 INFO: GET 200 /add_user.php
+- 20:33:10.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:34:37.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:34:37.766 INFO: POST 302 /add_user.php
+- 20:34:37.375 DEBUG: OnContextCreated()
+- 20:34:37.844 INFO: GET 200 /view_user.php
+- 20:34:37.922 INFO: GET 404 /images/sort_both.png
+- 20:34:37.937 INFO: GET 404 /images/sort_asc.png
+- 20:34:37.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:36:31.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:36:31.453 DEBUG: OnContextCreated()
+- 20:36:31.922 INFO: GET 200 /user.php?u=boss&s=n
+- 20:36:31.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:36:32.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=boss&s=n
+- 20:36:32.531 DEBUG: OnContextCreated()
+- 20:36:32.000 INFO: GET 200 /add_user.php
+- 20:36:32.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/add_user.php
+- 20:38:26.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/add_user.php
+- 20:38:26.906 INFO: POST 302 /add_user.php
+- 20:38:26.515 DEBUG: OnContextCreated()
+- 20:38:26.984 INFO: GET 200 /view_user.php
+- 20:38:26.078 INFO: GET 404 /images/sort_both.png
+- 20:38:26.094 INFO: GET 404 /images/sort_asc.png
+- 20:38:26.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:38:31.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:38:31.953 INFO: GET 302 /logout.php
+- 20:38:31.031 INFO: GET 302 /index.php
+- 20:38:31.625 DEBUG: OnContextCreated()
+- 20:38:31.109 INFO: GET 200 /login.php
+- 20:38:31.156 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+[0910/203831:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:60718/js/main.js (15)
+- 20:38:31.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/login.php
+- 20:38:39.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/login.php
+- 20:38:39.156 INFO: POST 302 /login.php
+- 20:38:40.750 DEBUG: OnContextCreated()
+- 20:38:40.234 INFO: GET 200 /index.php
+- 20:38:40.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 20:38:42.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 20:38:42.984 DEBUG: OnContextCreated()
+- 20:38:42.453 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:38:42.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:41:01.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:41:01.531 DEBUG: OnContextCreated()
+- 20:41:01.000 INFO: GET 200 /view_user.php
+- 20:41:01.094 INFO: GET 404 /images/sort_both.png
+- 20:41:01.109 INFO: GET 404 /images/sort_asc.png
+- 20:41:01.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:41:02.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:41:02.203 DEBUG: OnContextCreated()
+- 20:41:02.687 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:41:02.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:42:03.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:42:03.078 DEBUG: OnContextCreated()
+- 20:42:03.562 INFO: GET 200 /view_user.php
+- 20:42:03.672 INFO: GET 404 /images/sort_both.png
+- 20:42:03.687 INFO: GET 404 /images/sort_asc.png
+- 20:42:03.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:42:03.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:42:03.687 DEBUG: OnContextCreated()
+- 20:42:03.156 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:42:04.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:42:21.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:42:21.156 DEBUG: OnContextCreated()
+- 20:42:21.625 INFO: GET 200 /view_user.php
+- 20:42:21.719 INFO: GET 404 /images/sort_both.png
+- 20:42:21.734 INFO: GET 404 /images/sort_asc.png
+- 20:42:21.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:42:21.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:42:22.718 DEBUG: OnContextCreated()
+- 20:42:22.203 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:42:22.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:42:42.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:42:42.953 DEBUG: OnContextCreated()
+- 20:42:42.422 INFO: GET 200 /view_user.php
+- 20:42:42.531 INFO: GET 404 /images/sort_both.png
+- 20:42:42.547 INFO: GET 404 /images/sort_asc.png
+- 20:42:42.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:42:42.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:42:42.484 DEBUG: OnContextCreated()
+- 20:42:42.969 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:42:42.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:43:30.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:43:30.359 DEBUG: OnContextCreated()
+- 20:43:30.844 INFO: GET 200 /view_user.php
+- 20:43:30.937 INFO: GET 404 /images/sort_both.png
+- 20:43:30.953 INFO: GET 404 /images/sort_asc.png
+- 20:43:30.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:43:31.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:43:31.875 DEBUG: OnContextCreated()
+- 20:43:31.344 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:43:31.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:44:01.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:44:02.750 DEBUG: OnContextCreated()
+- 20:44:02.219 INFO: GET 200 /view_user.php
+- 20:44:02.312 INFO: GET 404 /images/sort_both.png
+- 20:44:02.328 INFO: GET 404 /images/sort_asc.png
+- 20:44:02.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:44:02.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:44:02.328 DEBUG: OnContextCreated()
+- 20:44:02.797 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:44:02.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:44:05.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:44:06.781 DEBUG: OnContextCreated()
+- 20:44:06.250 INFO: GET 200 /view_user.php
+- 20:44:06.344 INFO: GET 404 /images/sort_both.png
+- 20:44:06.359 INFO: GET 404 /images/sort_asc.png
+- 20:44:06.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:44:09.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:44:09.359 DEBUG: OnContextCreated()
+- 20:44:09.828 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:44:09.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:44:34.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:44:34.953 DEBUG: OnContextCreated()
+- 20:44:34.422 INFO: GET 200 /view_user.php
+- 20:44:34.516 INFO: GET 404 /images/sort_both.png
+- 20:44:34.547 INFO: GET 404 /images/sort_asc.png
+- 20:44:34.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:44:34.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:44:34.515 DEBUG: OnContextCreated()
+- 20:44:34.984 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:44:34.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:44:59.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:44:59.265 DEBUG: OnContextCreated()
+- 20:44:59.734 INFO: GET 200 /view_user.php
+- 20:44:59.812 INFO: GET 404 /images/sort_both.png
+- 20:44:59.844 INFO: GET 404 /images/sort_asc.png
+- 20:44:59.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 20:45:00.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 20:45:00.187 DEBUG: OnContextCreated()
+- 20:45:00.656 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:45:00.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:45:10.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:45:10.375 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:45:10.000 DEBUG: OnContextCreated()
+- 20:45:10.469 INFO: GET 200 /user_check.php?u=ismail
+- 20:45:10.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:45:22.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:45:22.672 DEBUG: OnContextCreated()
+- 20:45:22.156 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:45:23.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:45:34.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:45:34.406 DEBUG: OnContextCreated()
+- 20:45:34.891 INFO: POST 200 /user.php?u=ismail&s=n
+- 20:45:34.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:45:37.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:45:37.375 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:45:37.968 DEBUG: OnContextCreated()
+- 20:45:37.437 INFO: GET 200 /user_check.php?u=ismail
+- 20:45:37.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:45:54.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:45:54.640 DEBUG: OnContextCreated()
+- 20:45:54.125 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:45:54.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:47:36.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:47:36.109 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:47:37.187 INFO: GET 200 /user_check.php?u=ismail
+- 20:47:37.718 DEBUG: OnContextCreated()
+- 20:47:37.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:49:53.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:49:53.968 DEBUG: OnContextCreated()
+- 20:49:53.453 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:49:53.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:49:55.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:49:55.531 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:49:55.125 DEBUG: OnContextCreated()
+- 20:49:55.594 INFO: GET 200 /user_check.php?u=ismail
+- 20:49:55.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:50:28.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:50:28.531 DEBUG: OnContextCreated()
+- 20:50:28.016 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:50:28.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:50:31.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:50:31.672 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:50:31.281 DEBUG: OnContextCreated()
+- 20:50:31.750 INFO: GET 200 /user_check.php?u=ismail
+- 20:50:31.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:50:52.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:50:52.422 DEBUG: OnContextCreated()
+- 20:50:52.891 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:50:52.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:50:55.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:50:55.687 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:50:55.281 DEBUG: OnContextCreated()
+- 20:50:55.766 INFO: GET 200 /user_check.php?u=ismail
+- 20:50:55.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:52:04.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:52:04.672 DEBUG: OnContextCreated()
+- 20:52:04.141 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:52:05.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:52:07.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:52:07.734 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:52:07.343 DEBUG: OnContextCreated()
+- 20:52:07.812 INFO: GET 200 /user_check.php?u=ismail
+- 20:52:07.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:52:10.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:52:10.984 DEBUG: OnContextCreated()
+- 20:52:10.453 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:52:10.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:52:14.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:52:14.094 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:52:14.687 DEBUG: OnContextCreated()
+- 20:52:14.156 INFO: GET 200 /user_check.php?u=ismail
+- 20:52:15.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:53:16.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:53:16.453 DEBUG: OnContextCreated()
+- 20:53:16.922 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:53:16.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:53:18.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:53:18.047 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:53:18.640 DEBUG: OnContextCreated()
+- 20:53:18.125 INFO: GET 200 /user_check.php?u=ismail
+- 20:53:18.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:53:41.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:53:41.718 DEBUG: OnContextCreated()
+- 20:53:41.187 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:53:42.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:53:44.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:53:44.641 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:53:44.250 DEBUG: OnContextCreated()
+- 20:53:44.719 INFO: GET 200 /user_check.php?u=ismail
+- 20:53:44.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:54:03.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:54:03.953 DEBUG: OnContextCreated()
+- 20:54:03.437 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:54:03.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:54:06.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:54:06.281 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:54:06.875 DEBUG: OnContextCreated()
+- 20:54:06.359 INFO: GET 200 /user_check.php?u=ismail
+- 20:54:06.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:54:23.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:54:24.797 DEBUG: OnContextCreated()
+- 20:54:24.266 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:54:24.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:54:26.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:54:26.594 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:54:26.187 DEBUG: OnContextCreated()
+- 20:54:26.656 INFO: GET 200 /user_check.php?u=ismail
+- 20:54:26.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:54:51.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:54:51.843 DEBUG: OnContextCreated()
+- 20:54:51.328 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:54:51.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:54:53.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:54:53.078 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:54:53.672 DEBUG: OnContextCreated()
+- 20:54:53.156 INFO: GET 200 /user_check.php?u=ismail
+- 20:54:54.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:55:07.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:55:07.328 DEBUG: OnContextCreated()
+- 20:55:07.797 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:55:07.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:55:10.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:55:10.562 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:55:10.172 DEBUG: OnContextCreated()
+- 20:55:10.641 INFO: GET 200 /user_check.php?u=ismail
+- 20:55:10.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:55:14.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:55:14.359 DEBUG: OnContextCreated()
+- 20:55:14.844 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:55:14.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:55:21.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:55:21.734 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:55:21.328 DEBUG: OnContextCreated()
+- 20:55:21.812 INFO: GET 200 /user_check.php?u=ismail
+- 20:55:21.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:55:27.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:55:27.031 INFO: POST 302 /user_check.php?u=ismail
+- 20:55:27.625 DEBUG: OnContextCreated()
+- 20:55:27.109 INFO: GET 200 /user.php?u=ismail&s=s
+- 20:55:27.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=s
+- 20:57:30.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=s
+- 20:57:30.281 DEBUG: OnContextCreated()
+- 20:57:30.750 INFO: GET 200 /user.php?u=ismail&s=n
+- 20:57:30.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:57:36.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 20:57:36.141 INFO: POST 302 /user.php?u=ismail&s=n
+- 20:57:37.750 DEBUG: OnContextCreated()
+- 20:57:37.219 INFO: GET 200 /user_check.php?u=ismail
+- 20:57:37.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:57:40.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user_check.php?u=ismail
+- 20:57:41.312 INFO: POST 302 /user_check.php?u=ismail
+- 20:57:41.922 DEBUG: OnContextCreated()
+- 20:57:41.391 INFO: GET 200 /user.php?u=ismail&s=s
+- 20:57:41.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=s
+- 21:02:54.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=s
+- 21:02:54.625 INFO: GET 302 /logout.php
+- 21:02:54.687 INFO: GET 302 /index.php
+- 21:02:54.297 DEBUG: OnContextCreated()
+- 21:02:54.766 INFO: GET 200 /login.php
+- 21:02:54.812 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+[0910/210254:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:60718/js/main.js (15)
+- 21:02:54.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/login.php
+- 21:04:02.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/login.php
+- 21:04:02.891 INFO: POST 302 /login.php
+- 21:04:02.484 DEBUG: OnContextCreated()
+- 21:04:02.953 INFO: GET 200 /index.php
+- 21:04:02.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 21:04:04.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 21:04:04.234 DEBUG: OnContextCreated()
+- 21:04:04.766 INFO: GET 200 /last_patient.php
+- 21:04:04.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 21:04:22.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 21:04:22.000 DEBUG: OnContextCreated()
+- 21:04:22.484 INFO: GET 200 /view_patient.php
+- 21:04:22.703 INFO: GET 404 /images/sort_both.png
+- 21:04:22.812 INFO: GET 404 /images/sort_desc.png
+- 21:04:22.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 21:04:22.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 21:04:23.765 DEBUG: OnContextCreated()
+- 21:04:23.234 INFO: GET 200 /last_patient.php
+- 21:04:23.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 21:04:35.016 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="34620.2.203162503\2061521854" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:05:34.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="34620.3.596662797\1875421911" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:06:32.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 21:06:32.562 DEBUG: OnContextCreated()
+- 21:06:32.047 INFO: GET 200 /view_patient.php
+- 21:06:33.359 INFO: GET 404 /images/sort_both.png
+- 21:06:33.484 INFO: GET 404 /images/sort_desc.png
+- 21:06:33.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 21:06:33.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 21:06:33.265 DEBUG: OnContextCreated()
+- 21:06:33.750 INFO: GET 200 /last_patient.php
+- 21:06:33.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 21:06:37.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="34620.4.595116281\956190057" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:07:36.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 21:07:36.109 DEBUG: OnContextCreated()
+- 21:07:36.594 INFO: GET 200 /view_patient.php
+- 21:07:36.859 INFO: GET 404 /images/sort_both.png
+- 21:07:36.953 INFO: GET 404 /images/sort_desc.png
+- 21:07:36.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 21:07:37.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 21:07:37.000 DEBUG: OnContextCreated()
+- 21:07:37.484 INFO: GET 200 /last_patient.php
+- 21:07:37.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 21:07:40.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="34620.5.1454499938\801750985" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:09:19.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 21:09:19.625 DEBUG: OnContextCreated()
+- 21:09:19.109 INFO: GET 200 /view_patient.php
+- 21:09:20.328 INFO: GET 404 /images/sort_both.png
+- 21:09:20.437 INFO: GET 404 /images/sort_desc.png
+- 21:09:20.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 21:09:22.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 21:09:23.781 DEBUG: OnContextCreated()
+- 21:09:23.266 INFO: GET 200 /pat_details.php?p=138
+- 21:09:23.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/pat_details.php?p=138
+- 21:09:25.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="34620.6.176863961\1313446722" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:10:07.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/pat_details.php?p=138
+- 21:10:07.297 DEBUG: OnContextCreated()
+- 21:10:07.766 INFO: GET 200 /user.php?u=ismail&s=n
+- 21:10:07.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 21:10:43.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/user.php?u=ismail&s=n
+- 21:10:43.468 DEBUG: OnContextCreated()
+- 21:10:43.953 INFO: GET 200 /view_user.php
+- 21:10:43.078 INFO: GET 404 /images/sort_both.png
+- 21:10:43.094 INFO: GET 404 /images/sort_asc.png
+- 21:10:43.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_user.php
+- 21:10:57.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_user.php
+- 21:10:57.656 INFO: GET 302 /logout.php
+- 21:10:57.719 INFO: GET 302 /index.php
+- 21:10:57.328 DEBUG: OnContextCreated()
+- 21:10:57.797 INFO: GET 200 /login.php
+- 21:10:57.844 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+[0910/211057:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:60718/js/main.js (15)
+- 21:10:57.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/login.php
+- 21:11:06.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/login.php
+- 21:11:06.594 INFO: POST 302 /login.php
+- 21:11:06.203 DEBUG: OnContextCreated()
+- 21:11:06.672 INFO: GET 200 /index.php
+- 21:11:06.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/index.php
+- 21:11:09.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/index.php
+- 21:11:09.828 DEBUG: OnContextCreated()
+- 21:11:09.312 INFO: GET 200 /last_patient.php
+- 21:11:09.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 21:11:10.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/last_patient.php
+- 21:11:10.328 DEBUG: OnContextCreated()
+- 21:11:10.812 INFO: GET 200 /view_patient.php
+- 21:11:10.016 INFO: GET 404 /images/sort_both.png
+- 21:11:10.109 INFO: GET 404 /images/sort_desc.png
+- 21:11:10.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/view_patient.php
+- 21:11:12.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/view_patient.php
+- 21:11:13.734 DEBUG: OnContextCreated()
+- 21:11:13.203 INFO: GET 200 /pat_details.php?p=138
+- 21:11:13.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/pat_details.php?p=138
+- 21:11:16.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="34620.7.1746295276\1216259668" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:12:53.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60718/pat_details.php?p=138
+- 21:12:53.547 DEBUG: OnContextCreated()
+- 21:12:53.031 INFO: GET 200 /last_patient.php
+- 21:12:53.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60718/last_patient.php
+- 21:12:57.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="34620.8.1326189280\1480842954" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:13:14.156 DEBUG: WM_DESTROY
+- 21:13:14.156 DEBUG: RemoveBrowserWindow(): hwnd = 132424
+- 21:13:14.156 INFO: Stopping Mongoose web server
+- 21:13:14.156 DEBUG: Mongoose webserver stopped immediately
+- 21:13:14.172 DEBUG: OnBeforeClose() hwnd=66904
+- 21:13:14.172 DEBUG: RemoveBrowserWindow(): hwnd = 66904
+- 21:13:14.172 DEBUG: GetBrowserWindow(): not found, hwnd = 66904
+- 21:13:14.172 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:13:14.172 DEBUG: Calling CefQuitMessageLoop()
+- 21:13:15.843 DEBUG: OnBrowserDestroyed()
+- 21:13:15.844 INFO: Ended application
+- 21:13:15.844 INFO: --------------------------------------------------------
+- 21:13:21.000 INFO: --------------------------------------------------------
+- 21:13:21.000 INFO: Started application
+- 21:13:21.000 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:13:21.000 INFO: Log level = DEBUG4
+- 21:13:21.000 INFO: Starting Mongoose 3.9c web server
+- 21:13:21.000 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:13:21.000 INFO: Index files: index.html,index.php
+- 21:13:21.000 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:13:21.000 INFO: CGI pattern: **.php$
+- 21:13:21.000 INFO: Hide files patterns: 
+- 21:13:21.000 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:13:21.000 INFO: Web server url: http://127.0.0.1:62039/
+- 21:13:21.000 INFO: remote_debugging_port = 60663
+- 21:13:21.000 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=60663
+- 21:13:21.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="5556.0.1734242044\1565631530" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:13:21.391 DEBUG: App::OnContextInitialized()
+- 21:13:21.391 DEBUG: Window max width/height = 1286/690
+- 21:13:21.438 DEBUG: GetBrowserWindow(): not found, hwnd = 1511796
+- 21:13:21.438 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:13:21.469 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:13:21.469 DEBUG: StoreBrowserWindow(): hwnd = 1511796
+- 21:13:22.625 DEBUG: ClientHandler::OnAfterCreated()
+- 21:13:22.625 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:13:22.641 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:13:22.016 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="5556.1.1411732440\1349190185" /prefetch:673131151
+- 21:13:22.235 DEBUG: OnBrowserCreated()
+- 21:13:24.860 INFO: GET 302 /
+- 21:13:24.938 INFO: GET 200 /css/style.css
+- 21:13:24.938 INFO: GET 200 /login.php
+- 21:13:24.969 INFO: GET 200 /css/main.css
+- 21:13:24.969 INFO: GET 200 /css/bootstrap.css
+- 21:13:24.360 DEBUG: OnContextCreated()
+- 21:13:24.079 INFO: GET 200 /js/main.js
+- 21:13:24.110 INFO: GET 200 /pics/logo.png
+- 21:13:24.282 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:13:24.375 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:13:24.438 INFO: GET 200 /pics/bg.png
+- 21:13:25.532 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:13:25.547 INFO: GET 200 /fonts/Raleway-Regular.ttf
+[0910/211325:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62039/js/main.js (15)
+- 21:13:25.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62039/login.php
+- 21:13:33.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62039/login.php
+- 21:13:34.532 INFO: POST 302 /login.php
+- 21:13:34.938 DEBUG: OnContextCreated()
+- 21:13:34.610 INFO: GET 200 /index.php
+- 21:13:34.610 INFO: GET 304 /css/style.css
+- 21:13:34.735 INFO: GET 200 /css/dataTable.css
+- 21:13:34.782 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:13:34.969 INFO: GET 200 /js/bootstrap.js
+- 21:13:34.063 INFO: GET 200 /js/moment.js
+- 21:13:34.188 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:13:34.204 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:13:34.422 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:13:35.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62039/index.php
+- 21:13:38.657 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62039/index.php
+- 21:13:38.141 DEBUG: OnContextCreated()
+- 21:13:38.813 INFO: GET 304 /css/style.css
+- 21:13:38.860 INFO: GET 200 /view_patient.php
+- 21:13:38.360 INFO: GET 404 /images/sort_both.png
+- 21:13:38.485 INFO: GET 404 /images/sort_desc.png
+- 21:13:38.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62039/view_patient.php
+- 21:14:25.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62039/view_patient.php
+- 21:14:26.860 DEBUG: OnContextCreated()
+- 21:14:26.532 INFO: GET 304 /css/style.css
+- 21:14:26.532 INFO: GET 200 /pat_details.php?p=138
+- 21:14:26.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62039/pat_details.php?p=138
+- 21:14:29.032 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="5556.2.2073855677\84922352" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:15:16.266 DEBUG: WM_DESTROY
+- 21:15:16.266 DEBUG: RemoveBrowserWindow(): hwnd = 1511796
+- 21:15:16.266 INFO: Stopping Mongoose web server
+- 21:15:16.266 DEBUG: Mongoose webserver stopped immediately
+- 21:15:16.282 DEBUG: OnBeforeClose() hwnd=2164934
+- 21:15:16.282 DEBUG: RemoveBrowserWindow(): hwnd = 2164934
+- 21:15:16.282 DEBUG: GetBrowserWindow(): not found, hwnd = 2164934
+- 21:15:16.282 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:15:16.282 DEBUG: Calling CefQuitMessageLoop()
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+[0910/211516:ERROR:ipc_channel_win.cc(502)] pipe error: 232
+- 21:15:16.610 DEBUG: OnBrowserDestroyed()
+- 21:15:16.407 INFO: Ended application
+- 21:15:16.407 INFO: --------------------------------------------------------
+- 21:15:19.047 INFO: --------------------------------------------------------
+- 21:15:19.047 INFO: Started application
+- 21:15:19.047 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:15:19.047 INFO: Log level = DEBUG4
+- 21:15:19.047 INFO: Starting Mongoose 3.9c web server
+- 21:15:19.047 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:15:19.047 INFO: Index files: index.html,index.php
+- 21:15:19.047 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:15:19.047 INFO: CGI pattern: **.php$
+- 21:15:19.047 INFO: Hide files patterns: 
+- 21:15:19.047 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:15:19.047 INFO: Web server url: http://127.0.0.1:62070/
+- 21:15:19.063 INFO: remote_debugging_port = 59122
+- 21:15:19.063 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=59122
+- 21:15:19.109 DEBUG: App::OnContextInitialized()
+- 21:15:19.109 DEBUG: Window max width/height = 1286/690
+- 21:15:19.109 DEBUG: GetBrowserWindow(): not found, hwnd = 462894
+- 21:15:19.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:15:19.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="13900.0.1453888957\343499373" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:15:19.141 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:15:19.141 DEBUG: StoreBrowserWindow(): hwnd = 462894
+- 21:15:19.188 DEBUG: ClientHandler::OnAfterCreated()
+- 21:15:19.188 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:15:19.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:15:19.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="13900.1.1014538133\1635022239" /prefetch:673131151
+- 21:15:19.062 DEBUG: OnBrowserCreated()
+- 21:15:20.484 INFO: GET 302 /
+- 21:15:20.547 INFO: GET 200 /css/bootstrap.css
+- 21:15:20.547 INFO: GET 200 /css/style.css
+- 21:15:20.563 INFO: GET 200 /login.php
+- 21:15:20.344 DEBUG: OnContextCreated()
+- 21:15:20.578 INFO: GET 200 /css/main.css
+- 21:15:20.625 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:15:20.625 INFO: GET 200 /pics/logo.png
+- 21:15:20.625 INFO: GET 200 /js/main.js
+- 21:15:20.656 INFO: GET 200 /pics/bg.png
+- 21:15:20.688 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:15:20.703 INFO: GET 200 /fonts/Raleway-Regular.ttf
+[0910/211520:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62070/js/main.js (15)
+- 21:15:20.813 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:15:21.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62070/login.php
+- 21:15:30.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62070/login.php
+- 21:15:30.516 INFO: POST 302 /login.php
+- 21:15:30.375 DEBUG: OnContextCreated()
+- 21:15:30.594 INFO: GET 200 /index.php
+- 21:15:30.594 INFO: GET 304 /css/style.css
+- 21:15:30.609 INFO: GET 200 /css/dataTable.css
+- 21:15:30.625 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:15:30.625 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:15:30.641 INFO: GET 200 /js/moment.js
+- 21:15:30.641 INFO: GET 200 /js/bootstrap.js
+- 21:15:30.656 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:15:31.891 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:15:31.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62070/index.php
+- 21:15:32.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62070/index.php
+- 21:15:32.062 DEBUG: OnContextCreated()
+- 21:15:32.281 INFO: GET 304 /css/style.css
+- 21:15:32.297 INFO: GET 200 /last_patient.php
+- 21:15:32.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62070/last_patient.php
+- 21:15:35.015 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="13900.2.1646389630\1704259904" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:16:26.188 DEBUG: WM_DESTROY
+- 21:16:26.188 DEBUG: RemoveBrowserWindow(): hwnd = 462894
+- 21:16:26.188 INFO: Stopping Mongoose web server
+- 21:16:26.188 DEBUG: Mongoose webserver stopped immediately
+- 21:16:26.188 DEBUG: OnBeforeClose() hwnd=462580
+- 21:16:26.188 DEBUG: RemoveBrowserWindow(): hwnd = 462580
+- 21:16:26.188 DEBUG: GetBrowserWindow(): not found, hwnd = 462580
+- 21:16:26.188 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:16:26.188 DEBUG: Calling CefQuitMessageLoop()
+- 21:16:26.984 DEBUG: OnBrowserDestroyed()
+- 21:16:26.281 INFO: Ended application
+- 21:16:26.281 INFO: --------------------------------------------------------
+- 21:16:37.000 INFO: --------------------------------------------------------
+- 21:16:37.000 INFO: Started application
+- 21:16:37.000 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:16:37.000 INFO: Log level = DEBUG4
+- 21:16:37.000 INFO: Starting Mongoose 3.9c web server
+- 21:16:37.000 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:16:37.000 INFO: Index files: index.html,index.php
+- 21:16:37.000 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:16:37.000 INFO: CGI pattern: **.php$
+- 21:16:37.000 INFO: Hide files patterns: 
+- 21:16:37.000 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:16:37.000 INFO: Web server url: http://127.0.0.1:62096/
+- 21:16:37.000 INFO: remote_debugging_port = 58714
+- 21:16:37.016 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=58714
+- 21:16:37.063 DEBUG: App::OnContextInitialized()
+- 21:16:37.063 DEBUG: Window max width/height = 1286/690
+- 21:16:37.078 DEBUG: GetBrowserWindow(): not found, hwnd = 4590614
+- 21:16:37.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:16:37.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="14072.0.1144469604\1062010060" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:16:37.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:16:37.125 DEBUG: StoreBrowserWindow(): hwnd = 4590614
+- 21:16:37.188 DEBUG: ClientHandler::OnAfterCreated()
+- 21:16:37.188 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:16:37.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:16:37.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="14072.1.513094894\995039166" /prefetch:673131151
+- 21:16:37.031 DEBUG: OnBrowserCreated()
+- 21:16:38.531 INFO: GET 302 /
+- 21:16:38.609 INFO: GET 200 /css/bootstrap.css
+- 21:16:38.609 INFO: GET 200 /css/style.css
+- 21:16:38.625 INFO: GET 200 /login.php
+- 21:16:38.406 DEBUG: OnContextCreated()
+- 21:16:38.625 INFO: GET 200 /js/main.js
+- 21:16:38.641 INFO: GET 200 /pics/logo.png
+- 21:16:38.672 INFO: GET 200 /css/main.css
+- 21:16:38.672 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:16:38.688 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:16:38.828 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:16:38.828 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:16:38.828 INFO: GET 200 /pics/bg.png
+[0910/211638:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62096/js/main.js (15)
+- 21:16:39.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62096/login.php
+- 21:16:47.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62096/login.php
+- 21:16:47.578 INFO: POST 302 /login.php
+- 21:16:47.422 DEBUG: OnContextCreated()
+- 21:16:47.656 INFO: GET 304 /css/style.css
+- 21:16:47.656 INFO: GET 200 /index.php
+- 21:16:47.688 INFO: GET 200 /css/dataTable.css
+- 21:16:47.688 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:16:47.719 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:16:47.734 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:16:47.734 INFO: GET 200 /js/moment.js
+- 21:16:47.750 INFO: GET 200 /js/bootstrap.js
+- 21:16:48.922 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:16:48.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62096/index.php
+- 21:16:49.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62096/index.php
+- 21:16:49.515 DEBUG: OnContextCreated()
+- 21:16:49.750 INFO: GET 304 /css/style.css
+- 21:16:49.750 INFO: GET 200 /last_patient.php
+- 21:16:50.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62096/last_patient.php
+- 21:16:55.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="14072.2.646254430\2131578658" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:17:39.938 DEBUG: WM_DESTROY
+- 21:17:39.938 DEBUG: RemoveBrowserWindow(): hwnd = 4590614
+- 21:17:39.938 INFO: Stopping Mongoose web server
+- 21:17:39.938 DEBUG: Mongoose webserver stopped immediately
+- 21:17:39.938 DEBUG: OnBeforeClose() hwnd=594832
+- 21:17:39.938 DEBUG: RemoveBrowserWindow(): hwnd = 594832
+- 21:17:39.938 DEBUG: GetBrowserWindow(): not found, hwnd = 594832
+- 21:17:39.938 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:17:39.938 DEBUG: Calling CefQuitMessageLoop()
+- 21:17:39.016 INFO: Ended application
+- 21:17:39.016 INFO: --------------------------------------------------------
+- 21:17:44.000 INFO: --------------------------------------------------------
+- 21:17:44.000 INFO: Started application
+- 21:17:44.000 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:17:44.000 INFO: Log level = DEBUG4
+- 21:17:44.000 INFO: Starting Mongoose 3.9c web server
+- 21:17:44.000 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:17:44.000 INFO: Index files: index.html,index.php
+- 21:17:44.000 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:17:44.000 INFO: CGI pattern: **.php$
+- 21:17:44.000 INFO: Hide files patterns: 
+- 21:17:44.000 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:17:44.016 INFO: Web server url: http://127.0.0.1:62121/
+- 21:17:44.016 INFO: remote_debugging_port = 49454
+- 21:17:44.016 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=49454
+- 21:17:44.062 DEBUG: App::OnContextInitialized()
+- 21:17:44.062 DEBUG: Window max width/height = 1286/690
+- 21:17:44.078 DEBUG: GetBrowserWindow(): not found, hwnd = 659536
+- 21:17:44.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:17:44.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="32288.0.367868237\694860241" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:17:44.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:17:44.109 DEBUG: StoreBrowserWindow(): hwnd = 659536
+- 21:17:44.156 DEBUG: ClientHandler::OnAfterCreated()
+- 21:17:44.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:17:44.172 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:17:45.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="32288.1.388802767\1931767928" /prefetch:673131151
+- 21:17:45.047 DEBUG: OnBrowserCreated()
+- 21:17:46.453 INFO: GET 302 /
+- 21:17:46.531 INFO: GET 200 /css/style.css
+- 21:17:46.531 INFO: GET 200 /css/bootstrap.css
+- 21:17:46.344 DEBUG: OnContextCreated()
+- 21:17:46.547 INFO: GET 200 /css/main.css
+- 21:17:46.562 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:17:46.562 INFO: GET 200 /js/main.js
+- 21:17:46.562 INFO: GET 200 /pics/logo.png
+- 21:17:46.562 INFO: GET 200 /login.php
+- 21:17:46.562 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:17:46.687 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:17:46.687 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:17:46.687 INFO: GET 200 /pics/bg.png
+[0910/211746:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62121/js/main.js (15)
+- 21:17:46.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62121/login.php
+- 21:17:54.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62121/login.php
+- 21:17:54.094 INFO: POST 302 /login.php
+- 21:17:54.969 DEBUG: OnContextCreated()
+- 21:17:54.172 INFO: GET 304 /css/style.css
+- 21:17:54.172 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:17:54.172 INFO: GET 200 /css/dataTable.css
+- 21:17:54.172 INFO: GET 200 /js/bootstrap.js
+- 21:17:54.172 INFO: GET 200 /index.php
+- 21:17:55.250 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:17:55.250 INFO: GET 200 /js/moment.js
+- 21:17:55.250 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:17:55.391 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:17:55.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62121/index.php
+- 21:17:56.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62121/index.php
+- 21:17:56.844 DEBUG: OnContextCreated()
+- 21:17:56.047 INFO: GET 304 /css/style.css
+- 21:17:56.047 INFO: GET 200 /last_patient.php
+- 21:17:56.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62121/last_patient.php
+- 21:17:59.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="32288.2.2140052097\533018223" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:21:50.312 DEBUG: WM_DESTROY
+- 21:21:50.312 DEBUG: RemoveBrowserWindow(): hwnd = 659536
+- 21:21:50.312 INFO: Stopping Mongoose web server
+- 21:21:50.312 DEBUG: Mongoose webserver stopped immediately
+- 21:21:50.328 DEBUG: OnBeforeClose() hwnd=3803350
+- 21:21:50.328 DEBUG: RemoveBrowserWindow(): hwnd = 3803350
+- 21:21:50.328 DEBUG: GetBrowserWindow(): not found, hwnd = 3803350
+- 21:21:50.328 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:21:50.328 DEBUG: Calling CefQuitMessageLoop()
+- 21:21:50.141 DEBUG: OnBrowserDestroyed()
+- 21:21:50.375 INFO: Ended application
+- 21:21:50.375 INFO: --------------------------------------------------------
+- 21:21:57.000 INFO: --------------------------------------------------------
+- 21:21:57.000 INFO: Started application
+- 21:21:57.000 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:21:57.000 INFO: Log level = DEBUG4
+- 21:21:57.000 INFO: Starting Mongoose 3.9c web server
+- 21:21:57.000 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:21:57.000 INFO: Index files: index.html,index.php
+- 21:21:57.000 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:21:57.000 INFO: CGI pattern: **.php$
+- 21:21:57.000 INFO: Hide files patterns: 
+- 21:21:57.000 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:21:57.000 INFO: Web server url: http://127.0.0.1:62150/
+- 21:21:57.000 INFO: remote_debugging_port = 56630
+- 21:21:57.000 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=56630
+- 21:21:57.062 DEBUG: App::OnContextInitialized()
+- 21:21:57.062 DEBUG: Window max width/height = 1286/690
+- 21:21:57.078 DEBUG: GetBrowserWindow(): not found, hwnd = 593784
+- 21:21:57.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:21:57.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="14176.0.1720824696\135098349" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:21:57.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:21:57.078 DEBUG: StoreBrowserWindow(): hwnd = 593784
+- 21:21:57.140 DEBUG: ClientHandler::OnAfterCreated()
+- 21:21:57.140 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:21:57.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:21:57.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="14176.1.1705482384\1951975954" /prefetch:673131151
+- 21:21:57.047 DEBUG: OnBrowserCreated()
+- 21:21:58.500 INFO: GET 302 /
+- 21:21:58.578 INFO: GET 200 /css/main.css
+- 21:21:58.578 INFO: GET 200 /css/style.css
+- 21:21:58.578 INFO: GET 200 /css/bootstrap.css
+- 21:21:58.578 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:21:58.594 INFO: GET 200 /login.php
+- 21:21:58.422 DEBUG: OnContextCreated()
+- 21:21:58.625 INFO: GET 200 /js/main.js
+- 21:21:58.625 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:21:58.640 INFO: GET 200 /pics/logo.png
+- 21:21:59.781 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:21:59.781 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:21:59.797 INFO: GET 200 /pics/bg.png
+[0910/212159:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62150/js/main.js (15)
+- 21:21:59.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62150/login.php
+- 21:22:08.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62150/login.php
+- 21:22:08.109 INFO: POST 302 /login.php
+- 21:22:08.031 DEBUG: OnContextCreated()
+- 21:22:08.203 INFO: GET 304 /css/style.css
+- 21:22:08.203 INFO: GET 200 /css/dataTable.css
+- 21:22:08.203 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:22:08.203 INFO: GET 200 /js/bootstrap.js
+- 21:22:08.219 INFO: GET 200 /index.php
+- 21:22:08.312 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:22:08.312 INFO: GET 200 /js/moment.js
+- 21:22:08.312 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:22:08.594 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:22:08.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62150/index.php
+- 21:22:10.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62150/index.php
+- 21:22:11.531 DEBUG: OnContextCreated()
+- 21:22:11.703 INFO: GET 304 /css/style.css
+- 21:22:11.703 INFO: GET 200 /last_patient.php
+- 21:22:11.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62150/last_patient.php
+- 21:22:15.015 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="14176.2.2012264222\1620234544" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:23:32.828 DEBUG: WM_DESTROY
+- 21:23:32.828 DEBUG: RemoveBrowserWindow(): hwnd = 593784
+- 21:23:32.828 INFO: Stopping Mongoose web server
+- 21:23:32.828 DEBUG: Mongoose webserver stopped immediately
+- 21:23:32.844 DEBUG: OnBeforeClose() hwnd=725072
+- 21:23:32.844 DEBUG: RemoveBrowserWindow(): hwnd = 725072
+- 21:23:32.844 DEBUG: GetBrowserWindow(): not found, hwnd = 725072
+- 21:23:32.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:23:32.844 DEBUG: Calling CefQuitMessageLoop()
+- 21:23:32.875 INFO: Ended application
+- 21:23:32.875 INFO: --------------------------------------------------------
+- 21:23:34.000 INFO: --------------------------------------------------------
+- 21:23:34.000 INFO: Started application
+- 21:23:34.000 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:23:34.000 INFO: Log level = DEBUG4
+- 21:23:34.000 INFO: Starting Mongoose 3.9c web server
+- 21:23:34.000 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:23:34.000 INFO: Index files: index.html,index.php
+- 21:23:34.000 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:23:34.000 INFO: CGI pattern: **.php$
+- 21:23:34.000 INFO: Hide files patterns: 
+- 21:23:34.000 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:23:34.000 INFO: Web server url: http://127.0.0.1:62176/
+- 21:23:34.000 INFO: remote_debugging_port = 55486
+- 21:23:34.000 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=55486
+- 21:23:34.047 DEBUG: App::OnContextInitialized()
+- 21:23:34.047 DEBUG: Window max width/height = 1286/690
+- 21:23:34.062 DEBUG: GetBrowserWindow(): not found, hwnd = 986476
+- 21:23:34.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:23:35.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="4948.0.1859247258\194026762" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:23:35.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:23:35.062 DEBUG: StoreBrowserWindow(): hwnd = 986476
+- 21:23:35.125 DEBUG: ClientHandler::OnAfterCreated()
+- 21:23:35.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:23:35.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:23:35.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="4948.1.1306335901\4888205" /prefetch:673131151
+- 21:23:35.047 DEBUG: OnBrowserCreated()
+- 21:23:36.406 INFO: GET 302 /
+- 21:23:36.484 INFO: GET 200 /css/main.css
+- 21:23:36.484 INFO: GET 200 /css/bootstrap.css
+- 21:23:36.484 INFO: GET 200 /css/style.css
+- 21:23:36.484 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:23:36.500 INFO: GET 200 /login.php
+- 21:23:36.344 DEBUG: OnContextCreated()
+- 21:23:36.562 INFO: GET 200 /js/main.js
+- 21:23:36.562 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:23:36.562 INFO: GET 200 /pics/logo.png
+- 21:23:36.719 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:23:36.734 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:23:36.734 INFO: GET 200 /pics/bg.png
+[0910/212336:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62176/js/main.js (15)
+- 21:23:36.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62176/login.php
+- 21:23:47.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62176/login.php
+- 21:23:48.078 INFO: POST 302 /login.php
+- 21:23:48.000 DEBUG: OnContextCreated()
+- 21:23:48.172 INFO: GET 304 /css/style.css
+- 21:23:48.172 INFO: GET 200 /css/dataTable.css
+- 21:23:48.172 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:23:48.172 INFO: GET 200 /js/bootstrap.js
+- 21:23:48.172 INFO: GET 200 /js/moment.js
+- 21:23:48.172 INFO: GET 200 /index.php
+- 21:23:48.250 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:23:48.297 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:23:48.359 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:23:48.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62176/index.php
+- 21:23:50.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62176/index.php
+- 21:23:50.500 DEBUG: OnContextCreated()
+- 21:23:50.656 INFO: GET 304 /css/style.css
+- 21:23:50.672 INFO: GET 200 /last_patient.php
+- 21:23:50.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62176/last_patient.php
+- 21:23:54.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="4948.2.1127259103\1758382972" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:24:40.031 DEBUG: WM_DESTROY
+- 21:24:40.031 DEBUG: RemoveBrowserWindow(): hwnd = 986476
+- 21:24:40.031 INFO: Stopping Mongoose web server
+- 21:24:40.031 DEBUG: Mongoose webserver stopped immediately
+- 21:24:40.031 DEBUG: OnBeforeClose() hwnd=1314418
+- 21:24:40.031 DEBUG: RemoveBrowserWindow(): hwnd = 1314418
+- 21:24:40.031 DEBUG: GetBrowserWindow(): not found, hwnd = 1314418
+- 21:24:40.031 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:24:40.031 DEBUG: Calling CefQuitMessageLoop()
+- 21:24:41.125 INFO: Ended application
+- 21:24:41.125 INFO: --------------------------------------------------------
+- 21:24:43.000 INFO: --------------------------------------------------------
+- 21:24:43.000 INFO: Started application
+- 21:24:43.000 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:24:43.000 INFO: Log level = DEBUG4
+- 21:24:43.000 INFO: Starting Mongoose 3.9c web server
+- 21:24:43.000 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:24:43.000 INFO: Index files: index.html,index.php
+- 21:24:43.000 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:24:43.000 INFO: CGI pattern: **.php$
+- 21:24:43.000 INFO: Hide files patterns: 
+- 21:24:43.000 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:24:43.000 INFO: Web server url: http://127.0.0.1:62207/
+- 21:24:43.015 INFO: remote_debugging_port = 58902
+- 21:24:43.015 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=58902
+- 21:24:43.062 DEBUG: App::OnContextInitialized()
+- 21:24:43.062 DEBUG: Window max width/height = 1286/690
+- 21:24:43.078 DEBUG: GetBrowserWindow(): not found, hwnd = 722234
+- 21:24:43.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:24:43.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:24:43.078 DEBUG: StoreBrowserWindow(): hwnd = 722234
+- 21:24:43.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="1440.0.284184751\1671096601" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:24:43.140 DEBUG: ClientHandler::OnAfterCreated()
+- 21:24:43.140 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:24:43.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:24:43.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="1440.1.767674015\1205147326" /prefetch:673131151
+- 21:24:43.063 DEBUG: OnBrowserCreated()
+- 21:24:44.500 INFO: GET 302 /
+- 21:24:44.562 INFO: GET 200 /css/main.css
+- 21:24:44.578 INFO: GET 200 /css/style.css
+- 21:24:44.578 INFO: GET 200 /css/bootstrap.css
+- 21:24:44.578 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:24:44.578 INFO: GET 200 /login.php
+- 21:24:44.407 DEBUG: OnContextCreated()
+- 21:24:44.609 INFO: GET 200 /js/main.js
+- 21:24:44.609 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:24:44.625 INFO: GET 200 /pics/logo.png
+- 21:24:44.734 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:24:44.734 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:24:44.750 INFO: GET 200 /pics/bg.png
+[0910/212444:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62207/js/main.js (15)
+- 21:24:44.843 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62207/login.php
+- 21:24:54.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62207/login.php
+- 21:24:54.375 INFO: POST 302 /login.php
+- 21:24:54.266 DEBUG: OnContextCreated()
+- 21:24:54.453 INFO: GET 200 /index.php
+- 21:24:54.453 INFO: GET 304 /css/style.css
+- 21:24:54.453 INFO: GET 200 /css/dataTable.css
+- 21:24:54.453 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:24:54.453 INFO: GET 200 /js/bootstrap.js
+- 21:24:54.546 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:24:54.546 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:24:54.546 INFO: GET 200 /js/moment.js
+- 21:24:54.765 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:24:54.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62207/index.php
+- 21:24:56.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62207/index.php
+- 21:24:56.907 DEBUG: OnContextCreated()
+- 21:24:56.078 INFO: GET 304 /css/style.css
+- 21:24:56.093 INFO: GET 200 /last_patient.php
+- 21:24:56.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62207/last_patient.php
+- 21:25:00.015 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="1440.2.1396394783\1065814275" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:25:51.750 DEBUG: WM_DESTROY
+- 21:25:51.750 DEBUG: RemoveBrowserWindow(): hwnd = 722234
+- 21:25:51.750 INFO: Stopping Mongoose web server
+- 21:25:51.750 DEBUG: Mongoose webserver stopped immediately
+- 21:25:51.765 DEBUG: OnBeforeClose() hwnd=790382
+- 21:25:51.765 DEBUG: RemoveBrowserWindow(): hwnd = 790382
+- 21:25:51.765 DEBUG: GetBrowserWindow(): not found, hwnd = 790382
+- 21:25:51.765 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:25:51.765 DEBUG: Calling CefQuitMessageLoop()
+- 21:25:51.843 INFO: Ended application
+- 21:25:51.843 INFO: --------------------------------------------------------
+- 21:26:00.000 INFO: --------------------------------------------------------
+- 21:26:00.000 INFO: Started application
+- 21:26:00.000 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:26:00.000 INFO: Log level = DEBUG4
+- 21:26:00.000 INFO: Starting Mongoose 3.9c web server
+- 21:26:00.000 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:26:00.000 INFO: Index files: index.html,index.php
+- 21:26:00.000 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:26:00.000 INFO: CGI pattern: **.php$
+- 21:26:00.000 INFO: Hide files patterns: 
+- 21:26:00.000 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:26:00.015 INFO: Web server url: http://127.0.0.1:62233/
+- 21:26:00.015 INFO: remote_debugging_port = 55154
+- 21:26:00.015 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=55154
+- 21:26:00.062 DEBUG: App::OnContextInitialized()
+- 21:26:00.062 DEBUG: Window max width/height = 1286/690
+- 21:26:00.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1508676
+- 21:26:00.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:26:00.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="23452.0.665744846\1159485339" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:26:00.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:26:00.078 DEBUG: StoreBrowserWindow(): hwnd = 1508676
+- 21:26:00.140 DEBUG: ClientHandler::OnAfterCreated()
+- 21:26:00.140 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:26:00.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:26:00.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="23452.1.918152517\686693000" /prefetch:673131151
+- 21:26:00.046 DEBUG: OnBrowserCreated()
+- 21:26:01.484 INFO: GET 302 /
+- 21:26:01.578 INFO: GET 200 /css/main.css
+- 21:26:01.578 INFO: GET 200 /css/style.css
+- 21:26:01.578 INFO: GET 200 /css/bootstrap.css
+- 21:26:01.578 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:26:01.578 INFO: GET 200 /login.php
+- 21:26:01.421 DEBUG: OnContextCreated()
+- 21:26:02.656 INFO: GET 200 /js/main.js
+- 21:26:02.656 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:26:02.656 INFO: GET 200 /pics/logo.png
+- 21:26:02.797 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:26:02.797 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:26:02.797 INFO: GET 200 /pics/bg.png
+[0910/212602:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62233/js/main.js (15)
+- 21:26:02.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62233/login.php
+- 21:26:10.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62233/login.php
+- 21:26:10.437 INFO: POST 302 /login.php
+- 21:26:10.343 DEBUG: OnContextCreated()
+- 21:26:10.531 INFO: GET 304 /css/style.css
+- 21:26:10.531 INFO: GET 200 /css/dataTable.css
+- 21:26:10.531 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:26:10.531 INFO: GET 200 /js/bootstrap.js
+- 21:26:10.531 INFO: GET 200 /index.php
+- 21:26:11.812 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:26:11.812 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:26:11.812 INFO: GET 200 /js/moment.js
+- 21:26:11.515 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:26:11.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62233/index.php
+- 21:26:12.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62233/index.php
+- 21:26:12.359 DEBUG: OnContextCreated()
+- 21:26:12.531 INFO: GET 304 /css/style.css
+- 21:26:12.547 INFO: GET 200 /last_patient.php
+- 21:26:13.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62233/last_patient.php
+- 21:26:16.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="23452.2.514320975\557925274" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:27:26.890 DEBUG: WM_DESTROY
+- 21:27:26.890 DEBUG: RemoveBrowserWindow(): hwnd = 1508676
+- 21:27:26.890 INFO: Stopping Mongoose web server
+- 21:27:26.890 DEBUG: Mongoose webserver stopped immediately
+- 21:27:26.890 DEBUG: OnBeforeClose() hwnd=1117548
+- 21:27:26.890 DEBUG: RemoveBrowserWindow(): hwnd = 1117548
+- 21:27:26.890 DEBUG: GetBrowserWindow(): not found, hwnd = 1117548
+- 21:27:26.890 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:27:26.890 DEBUG: Calling CefQuitMessageLoop()
+- 21:27:26.734 DEBUG: OnBrowserDestroyed()
+- 21:27:26.968 INFO: Ended application
+- 21:27:26.968 INFO: --------------------------------------------------------
+- 21:27:47.000 INFO: --------------------------------------------------------
+- 21:27:47.000 INFO: Started application
+- 21:27:47.000 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:27:47.000 INFO: Log level = DEBUG4
+- 21:27:47.000 INFO: Starting Mongoose 3.9c web server
+- 21:27:47.000 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:27:47.000 INFO: Index files: index.html,index.php
+- 21:27:47.000 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:27:47.000 INFO: CGI pattern: **.php$
+- 21:27:47.000 INFO: Hide files patterns: 
+- 21:27:47.000 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:27:47.000 INFO: Web server url: http://127.0.0.1:62263/
+- 21:27:47.000 INFO: remote_debugging_port = 64281
+- 21:27:47.016 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=64281
+- 21:27:47.063 DEBUG: App::OnContextInitialized()
+- 21:27:47.063 DEBUG: Window max width/height = 1286/690
+- 21:27:47.079 DEBUG: GetBrowserWindow(): not found, hwnd = 1574212
+- 21:27:47.079 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:27:47.079 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:27:47.079 DEBUG: StoreBrowserWindow(): hwnd = 1574212
+- 21:27:47.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="7776.0.944922783\342585438" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:27:47.141 DEBUG: ClientHandler::OnAfterCreated()
+- 21:27:47.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:27:47.157 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:27:47.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="7776.1.1605900242\829278221" /prefetch:673131151
+- 21:27:47.047 DEBUG: OnBrowserCreated()
+- 21:27:49.454 INFO: GET 302 /
+- 21:27:49.547 INFO: GET 200 /css/main.css
+- 21:27:49.547 INFO: GET 200 /css/bootstrap.css
+- 21:27:49.547 INFO: GET 200 /css/style.css
+- 21:27:49.547 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:27:49.391 DEBUG: OnContextCreated()
+- 21:27:49.563 INFO: GET 200 /login.php
+- 21:27:49.641 INFO: GET 200 /js/main.js
+- 21:27:49.641 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:27:49.641 INFO: GET 200 /pics/logo.png
+- 21:27:49.782 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:27:49.782 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:27:49.797 INFO: GET 200 /pics/bg.png
+[0910/212749:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62263/js/main.js (15)
+- 21:27:49.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/login.php
+- 21:27:57.204 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/login.php
+- 21:27:57.344 INFO: POST 302 /login.php
+- 21:27:58.250 DEBUG: OnContextCreated()
+- 21:27:58.422 INFO: GET 304 /css/style.css
+- 21:27:58.422 INFO: GET 200 /css/dataTable.css
+- 21:27:58.422 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:27:58.422 INFO: GET 200 /js/bootstrap.js
+- 21:27:58.438 INFO: GET 200 /index.php
+- 21:27:58.485 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:27:58.485 INFO: GET 200 /js/moment.js
+- 21:27:58.485 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:27:58.657 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:27:58.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/index.php
+- 21:27:59.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/index.php
+- 21:28:00.235 DEBUG: OnContextCreated()
+- 21:28:00.407 INFO: GET 304 /css/style.css
+- 21:28:00.422 INFO: GET 200 /last_patient.php
+- 21:28:00.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/last_patient.php
+- 21:28:03.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="7776.2.1880524382\295528665" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:28:37.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/last_patient.php
+- 21:28:37.094 DEBUG: OnContextCreated()
+- 21:28:37.282 INFO: GET 304 /css/style.css
+- 21:28:37.313 INFO: GET 200 /view_patient.php
+- 21:28:38.579 INFO: GET 404 /images/sort_both.png
+- 21:28:38.704 INFO: GET 404 /images/sort_desc.png
+- 21:28:38.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/view_patient.php
+- 21:29:00.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/view_patient.php
+- 21:29:01.313 DEBUG: OnContextCreated()
+- 21:29:01.500 INFO: GET 304 /css/style.css
+- 21:29:01.500 INFO: GET 200 /pat_details.php?p=97
+- 21:29:01.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/pat_details.php?p=97
+- 21:29:06.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="7776.3.764205529\1235476599" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:30:23.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/pat_details.php?p=97
+- 21:30:24.266 DEBUG: OnContextCreated()
+- 21:30:24.454 INFO: GET 304 /css/style.css
+- 21:30:24.454 INFO: GET 200 /index.php
+- 21:30:24.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/index.php
+- 21:30:27.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/index.php
+- 21:30:27.563 INFO: POST 302 /index.php
+- 21:30:27.532 DEBUG: OnContextCreated()
+- 21:30:27.704 INFO: GET 304 /css/style.css
+- 21:30:27.704 INFO: GET 200 /pat_info.php?p_id=1245
+- 21:30:27.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/pat_info.php?p_id=1245
+- 21:30:45.907 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/pat_info.php?p_id=1245
+- 21:30:45.157 INFO: POST 302 /pat_info.php?p_id=1245
+- 21:30:45.063 DEBUG: OnContextCreated()
+- 21:30:45.250 INFO: GET 304 /css/style.css
+- 21:30:45.250 INFO: GET 200 /submit.php
+- 21:30:45.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/submit.php
+- 21:36:04.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/submit.php
+- 21:36:06.157 INFO: POST 302 /submit.php
+- 21:36:06.125 DEBUG: OnContextCreated()
+- 21:36:06.297 INFO: GET 304 /css/style.css
+- 21:36:06.313 INFO: GET 200 /last_patient.php
+- 21:36:07.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/last_patient.php
+- 21:36:48.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/last_patient.php
+- 21:36:48.563 DEBUG: OnContextCreated()
+- 21:36:48.735 INFO: GET 304 /css/style.css
+- 21:36:48.735 INFO: GET 200 /index.php
+- 21:36:48.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/index.php
+- 21:36:51.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/index.php
+- 21:36:51.219 INFO: POST 302 /index.php
+- 21:36:51.141 DEBUG: OnContextCreated()
+- 21:36:51.313 INFO: GET 304 /css/style.css
+- 21:36:51.329 INFO: GET 200 /pat_info.php?p_id=123
+- 21:36:52.454 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/pat_info.php?p_id=123
+- 21:37:06.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/pat_info.php?p_id=123
+- 21:37:07.625 INFO: POST 302 /pat_info.php?p_id=123
+- 21:37:07.547 DEBUG: OnContextCreated()
+- 21:37:07.719 INFO: GET 304 /css/style.css
+- 21:37:07.719 INFO: GET 200 /submit.php
+- 21:37:07.782 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/submit.php
+- 21:38:14.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/submit.php
+- 21:38:14.875 DEBUG: OnContextCreated()
+- 21:38:14.047 INFO: GET 200 /submit.php
+- 21:38:14.110 INFO: GET 200 /css/dataTable.css
+- 21:38:14.125 INFO: GET 200 /css/style.css
+- 21:38:14.219 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:38:14.250 INFO: GET 200 /js/moment.js
+- 21:38:14.266 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:38:14.313 INFO: GET 200 /js/bootstrap.js
+- 21:38:14.329 INFO: GET 200 /pics/logo.png
+- 21:38:14.344 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:38:14.344 INFO: GET 200 /css/bootstrap.css
+- 21:38:15.422 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:38:15.563 INFO: GET 200 /pics/bg.png
+- 21:38:15.579 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:38:15.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/submit.php
+- 21:39:57.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62263/submit.php
+- 21:39:57.438 DEBUG: OnContextCreated()
+- 21:39:57.610 INFO: GET 200 /submit.php
+- 21:39:57.610 INFO: GET 200 /css/style.css
+- 21:39:57.610 INFO: GET 200 /css/dataTable.css
+- 21:39:57.610 INFO: GET 200 /css/bootstrap.css
+- 21:39:57.625 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:39:57.625 INFO: GET 200 /js/bootstrap.js
+- 21:39:57.625 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:39:57.625 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:39:57.625 INFO: GET 200 /js/moment.js
+- 21:39:57.625 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:39:57.641 INFO: GET 200 /pics/logo.png
+- 21:39:57.922 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:39:57.938 INFO: GET 200 /pics/bg.png
+- 21:39:57.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62263/submit.php
+[0910/213957:FATAL:memory.cc(18)] Out of memory. size=93270016
+Backtrace:
+	cef_time_to_timet [0x5919F197+788039]
+	cef_time_to_timet [0x5916AA21+573137]
+	TerminateProcessWithoutDump [0x5AD614A0+8035424]
+	cef_get_min_log_level [0x5A31770A+1446698]
+	cef_get_min_log_level [0x5A3173C7+1445863]
+	GetHandleVerifier [0x5945CB67+2832951]
+	GetHandleVerifier [0x593505D4+1733796]
+	GetHandleVerifier [0x592EE4FC+1332172]
+	GetHandleVerifier [0x593526B4+1742212]
+	GetHandleVerifier [0x593CCE8B+2243931]
+	GetHandleVerifier [0x593CCF9E+2244206]
+	GetHandleVerifier [0x59352C7F+1743695]
+	GetHandleVerifier [0x5932A76E+1578558]
+	TerminateProcessWithoutDump [0x5B2DCD33+13784307]
+	TerminateProcessWithoutDump [0x5B258A6F+13242927]
+	TerminateProcessWithoutDump [0x5B25888F+13242447]
+	GetHandleVerifier [0x591B69A3+55411]
+	cef_time_to_timet [0x59174AD2+614274]
+	BaseThreadInitThunk [0x76128744+36]
+	RtlGetAppContainerNamedObjectPath [0x77A3582D+253]
+	RtlGetAppContainerNamedObjectPath [0x77A357FD+205]
+
+- 21:40:34.172 DEBUG: WM_DESTROY
+- 21:40:34.172 DEBUG: RemoveBrowserWindow(): hwnd = 1574212
+- 21:40:34.172 INFO: Stopping Mongoose web server
+- 21:40:34.172 DEBUG: Mongoose webserver stopped immediately
+- 21:40:34.188 DEBUG: OnBeforeClose() hwnd=1051988
+- 21:40:34.188 DEBUG: RemoveBrowserWindow(): hwnd = 1051988
+- 21:40:34.188 DEBUG: GetBrowserWindow(): not found, hwnd = 1051988
+- 21:40:34.188 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:40:34.188 DEBUG: Calling CefQuitMessageLoop()
+[0910/214034:ERROR:ipc_channel_win.cc(465)] pipe error: 995
+- 21:40:34.360 INFO: Ended application
+- 21:40:34.360 INFO: --------------------------------------------------------
+- 21:44:14.015 INFO: --------------------------------------------------------
+- 21:44:14.015 INFO: Started application
+- 21:44:14.015 INFO: Logging to: C:\Users\shuvo\Desktop\kdcApp\debug.log
+- 21:44:14.015 INFO: Log level = DEBUG4
+- 21:44:14.015 INFO: Starting Mongoose 3.9c web server
+- 21:44:14.015 INFO: WWW directory: C:\Users\shuvo\Desktop\kdcApp\www
+- 21:44:14.015 INFO: Index files: index.html,index.php
+- 21:44:14.015 INFO: CGI interpreter: C:\Users\shuvo\Desktop\kdcApp\php\php-cgi.exe
+- 21:44:14.015 INFO: CGI pattern: **.php$
+- 21:44:14.015 INFO: Hide files patterns: 
+- 21:44:14.015 INFO: CGI environment variables set: TMP=C:\Users\shuvo\AppData\Local\Temp\,TEMP=C:\Users\shuvo\AppData\Local\Temp\,TMPDIR=C:\Users\shuvo\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 21:44:14.015 INFO: Web server url: http://127.0.0.1:62424/
+- 21:44:14.015 INFO: remote_debugging_port = 54215
+- 21:44:14.015 DEBUG: Command line string for the browser process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --remote-debugging-port=54215
+- 21:44:14.000 DEBUG: Command line string for the gpu-process process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=gpu-process --channel="15868.0.669372874\1018194437" --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:822062411
+- 21:44:14.109 DEBUG: App::OnContextInitialized()
+- 21:44:14.109 DEBUG: Window max width/height = 1286/690
+- 21:44:14.125 DEBUG: GetBrowserWindow(): not found, hwnd = 4851970
+- 21:44:14.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:44:14.140 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:44:14.140 DEBUG: StoreBrowserWindow(): hwnd = 4851970
+- 21:44:14.203 DEBUG: ClientHandler::OnAfterCreated()
+- 21:44:14.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:44:14.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:44:15.000 DEBUG: Command line string for the renderer process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="15868.1.969217059\1678115816" /prefetch:673131151
+- 21:44:15.047 DEBUG: OnBrowserCreated()
+- 21:44:16.484 INFO: GET 302 /
+- 21:44:16.687 INFO: GET 200 /css/bootstrap.css
+- 21:44:16.687 INFO: GET 200 /css/style.css
+- 21:44:16.687 INFO: GET 200 /login.php
+- 21:44:16.469 DEBUG: OnContextCreated()
+- 21:44:16.703 INFO: GET 200 /css/main.css
+- 21:44:16.734 INFO: GET 200 /pics/logo.png
+- 21:44:16.750 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:44:16.750 INFO: GET 200 /js/main.js
+- 21:44:16.750 INFO: GET 200 /js/vendor/modernizr-2.6.2.min.js
+- 21:44:16.859 INFO: GET 200 /pics/bg.png
+- 21:44:16.890 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+- 21:44:16.890 INFO: GET 200 /fonts/Raleway-Regular.ttf
+[0910/214416:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62424/js/main.js (15)
+- 21:44:16.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/login.php
+- 21:44:24.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/login.php
+- 21:44:25.312 INFO: POST 302 /login.php
+- 21:44:25.157 DEBUG: OnContextCreated()
+- 21:44:25.390 INFO: GET 200 /css/dataTable.css
+- 21:44:25.390 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:44:25.390 INFO: GET 200 /js/bootstrap.js
+- 21:44:25.390 INFO: GET 200 /index.php
+- 21:44:25.437 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:44:25.437 INFO: GET 200 /js/moment.js
+- 21:44:25.484 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:44:25.625 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:44:25.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/index.php
+- 21:44:30.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/index.php
+- 21:44:30.578 INFO: POST 302 /index.php
+- 21:44:30.485 DEBUG: OnContextCreated()
+- 21:44:30.718 INFO: GET 200 /pat_info.php?p_id=1245
+- 21:44:30.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_info.php?p_id=1245
+- 21:44:41.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_info.php?p_id=1245
+- 21:44:41.313 DEBUG: OnContextCreated()
+- 21:44:41.531 INFO: GET 200 /index.php
+- 21:44:41.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/index.php
+- 21:44:43.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/index.php
+- 21:44:43.765 INFO: POST 302 /index.php
+- 21:44:43.625 DEBUG: OnContextCreated()
+- 21:44:43.859 INFO: GET 200 /pat_info.php?p_id=15
+- 21:44:43.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_info.php?p_id=15
+- 21:44:57.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_info.php?p_id=15
+- 21:44:57.000 INFO: POST 302 /pat_info.php?p_id=15
+- 21:44:57.860 DEBUG: OnContextCreated()
+- 21:44:57.078 INFO: GET 200 /submit.php
+- 21:44:57.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/submit.php
+- 21:45:50.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/submit.php
+- 21:45:50.188 DEBUG: OnContextCreated()
+- 21:45:50.422 INFO: GET 200 /css/bootstrap.css
+- 21:45:50.422 INFO: GET 200 /css/style.css
+- 21:45:50.422 INFO: GET 200 /css/dataTable.css
+- 21:45:50.422 INFO: GET 200 /css/bootstrap-datetimepicker.css
+- 21:45:50.422 INFO: GET 200 /js/jquery-1.11.3.min.js
+- 21:45:50.422 INFO: GET 200 /js/bootstrap.js
+- 21:45:50.422 INFO: GET 200 /js/DataTables.V1.10.15.js
+- 21:45:50.422 INFO: GET 200 /js/moment.js
+- 21:45:50.437 INFO: GET 200 /submit.php
+- 21:45:50.562 INFO: GET 200 /js/bootstrap-datetimepicker.js
+- 21:45:50.562 INFO: GET 200 /pics/logo.png
+- 21:45:50.828 INFO: GET 200 /fonts/Raleway-Regular.ttf
+- 21:45:50.828 INFO: GET 200 /pics/bg.png
+- 21:45:50.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/submit.php
+- 21:46:57.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/submit.php
+- 21:46:58.406 INFO: POST 302 /submit.php
+- 21:46:58.313 DEBUG: OnContextCreated()
+- 21:46:58.531 INFO: GET 200 /last_patient.php
+- 21:46:58.593 INFO: GET 200 /fonts/glyphicons-halflings-regular.woff2
+- 21:46:58.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 21:47:00.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 21:47:00.329 DEBUG: OnContextCreated()
+- 21:47:00.578 INFO: GET 200 /view_patient.php
+- 21:47:00.812 INFO: GET 404 /images/sort_both.png
+- 21:47:00.937 INFO: GET 404 /images/sort_desc.png
+- 21:47:00.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 21:47:07.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 21:47:07.766 DEBUG: OnContextCreated()
+- 21:47:07.000 INFO: GET 200 /pat_details.php?p=142
+- 21:47:07.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=142
+- 21:47:10.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=142
+- 21:47:10.860 DEBUG: OnContextCreated()
+- 21:47:10.093 INFO: GET 200 /pat_edit.php?p=142
+- 21:47:11.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_edit.php?p=142
+- 21:47:55.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_edit.php?p=142
+- 21:47:56.203 INFO: POST 302 /pat_edit.php?p=142
+- 21:47:57.063 DEBUG: OnContextCreated()
+- 21:47:57.281 INFO: GET 304 /css/style.css
+- 21:47:57.312 INFO: GET 200 /pat_details.php?p=142
+- 21:47:57.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=142
+- 21:48:15.718 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=142
+- 21:48:15.579 DEBUG: OnContextCreated()
+- 21:48:15.812 INFO: GET 304 /css/style.css
+- 21:48:15.812 INFO: GET 200 /last_patient.php
+- 21:48:15.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 21:48:21.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="15868.2.913119935\625351740" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 21:52:58.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 21:52:58.313 DEBUG: OnContextCreated()
+- 21:52:58.547 INFO: GET 304 /css/style.css
+- 21:52:58.547 INFO: GET 200 /last_patient.php
+- 21:52:58.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 21:53:00.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 21:53:00.250 DEBUG: OnContextCreated()
+- 21:53:00.484 INFO: GET 304 /css/style.css
+- 21:53:00.484 INFO: GET 200 /last_patient.php
+- 21:53:00.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 21:53:44.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 21:53:44.266 DEBUG: OnContextCreated()
+- 21:53:44.500 INFO: GET 304 /css/style.css
+- 21:53:44.515 INFO: GET 200 /last_patient.php
+- 21:53:44.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 21:54:39.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 21:54:39.282 DEBUG: OnContextCreated()
+- 21:54:39.515 INFO: GET 304 /css/style.css
+- 21:54:39.531 INFO: GET 200 /last_patient.php
+- 21:54:39.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 21:55:52.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 21:55:52.250 DEBUG: OnContextCreated()
+- 21:55:52.484 INFO: GET 304 /css/style.css
+- 21:55:52.500 INFO: GET 200 /view_patient.php
+- 21:55:52.718 INFO: GET 404 /images/sort_both.png
+- 21:55:52.828 INFO: GET 404 /images/sort_desc.png
+- 21:55:52.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 21:55:56.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 21:55:56.610 DEBUG: OnContextCreated()
+- 21:55:56.843 INFO: GET 304 /css/style.css
+- 21:55:56.843 INFO: GET 200 /pat_details.php?p=142
+- 21:55:56.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=142
+- 21:56:55.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=142
+- 21:56:55.797 DEBUG: OnContextCreated()
+- 21:56:55.031 INFO: GET 200 /view_patient.php
+- 21:56:56.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 21:56:58.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 21:56:58.360 DEBUG: OnContextCreated()
+- 21:56:58.578 INFO: GET 304 /css/style.css
+- 21:56:58.687 INFO: GET 200 /pat_details.php?p=143
+- 21:56:58.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=143
+- 21:57:44.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=143
+- 21:57:44.829 DEBUG: OnContextCreated()
+- 21:57:44.078 INFO: GET 200 /view_patient.php
+- 21:57:45.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 21:57:48.843 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 21:57:48.719 DEBUG: OnContextCreated()
+- 21:57:48.937 INFO: GET 304 /css/style.css
+- 21:57:48.953 INFO: GET 200 /pat_details.php?p=139
+- 21:57:48.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=139
+- 21:57:58.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=139
+- 21:57:58.594 DEBUG: OnContextCreated()
+- 21:57:58.843 INFO: GET 200 /view_patient.php
+- 21:57:59.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 21:58:33.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 21:58:33.219 DEBUG: OnContextCreated()
+- 21:58:33.453 INFO: GET 304 /css/style.css
+- 21:58:33.453 INFO: GET 200 /pat_details.php?p=143
+- 21:58:33.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=143
+- 21:59:14.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=143
+- 21:59:14.157 DEBUG: OnContextCreated()
+- 21:59:14.375 INFO: GET 304 /css/style.css
+- 21:59:14.390 INFO: GET 200 /last_patient.php
+- 21:59:14.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 21:59:16.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 21:59:16.375 DEBUG: OnContextCreated()
+- 21:59:16.609 INFO: GET 304 /css/style.css
+- 21:59:16.609 INFO: GET 200 /last_patient.php
+- 21:59:16.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 21:59:17.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 21:59:17.000 DEBUG: OnContextCreated()
+- 21:59:17.218 INFO: GET 304 /css/style.css
+- 21:59:18.234 INFO: GET 200 /view_patient.php
+- 21:59:18.437 INFO: GET 404 /images/sort_both.png
+- 21:59:18.531 INFO: GET 404 /images/sort_desc.png
+- 21:59:18.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 21:59:22.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 21:59:22.922 DEBUG: OnContextCreated()
+- 21:59:22.140 INFO: GET 304 /css/style.css
+- 21:59:22.140 INFO: GET 200 /pat_details.php?p=139
+- 21:59:22.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=139
+- 22:00:09.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=139
+- 22:00:09.735 DEBUG: OnContextCreated()
+- 22:00:09.953 INFO: GET 304 /css/style.css
+- 22:00:09.953 INFO: GET 200 /last_patient.php
+- 22:00:09.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 22:00:16.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 22:00:16.360 DEBUG: OnContextCreated()
+- 22:00:16.578 INFO: GET 304 /css/style.css
+- 22:00:16.609 INFO: GET 200 /view_patient.php
+- 22:00:16.812 INFO: GET 404 /images/sort_both.png
+- 22:00:16.906 INFO: GET 404 /images/sort_desc.png
+- 22:00:16.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 22:00:19.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 22:00:19.750 DEBUG: OnContextCreated()
+- 22:00:19.968 INFO: GET 304 /css/style.css
+- 22:00:19.984 INFO: GET 200 /pat_details.php?p=139
+- 22:00:19.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=139
+- 22:01:00.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=139
+- 22:01:00.688 DEBUG: OnContextCreated()
+- 22:01:00.906 INFO: GET 304 /css/style.css
+- 22:01:00.937 INFO: GET 200 /view_patient.php
+- 22:01:00.140 INFO: GET 404 /images/sort_both.png
+- 22:01:01.234 INFO: GET 404 /images/sort_desc.png
+- 22:01:01.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 22:01:06.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 22:01:06.266 DEBUG: OnContextCreated()
+- 22:01:06.484 INFO: GET 304 /css/style.css
+- 22:01:06.500 INFO: GET 200 /pat_details.php?p=137
+- 22:01:06.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=137
+- 22:01:09.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="15868.3.428632418\152127151" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 22:01:52.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=137
+- 22:01:52.641 DEBUG: OnContextCreated()
+- 22:01:52.875 INFO: GET 304 /css/style.css
+- 22:01:52.890 INFO: GET 200 /view_patient.php
+- 22:01:52.109 INFO: GET 404 /images/sort_both.png
+- 22:01:52.203 INFO: GET 404 /images/sort_desc.png
+- 22:01:52.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 22:03:49.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 22:03:49.625 DEBUG: OnContextCreated()
+- 22:03:49.859 INFO: GET 304 /css/style.css
+- 22:03:49.859 INFO: GET 200 /pat_details.php?p=141
+- 22:03:49.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=141
+- 22:03:53.000 DEBUG: Command line string for the utility process: "C:\Users\shuvo\Desktop\kdcApp\kdc.exe" --type=utility --channel="15868.4.2090731023\1203627612" --lang=en-US --no-sandbox --lang=en-US --log-file="C:\Users\shuvo\Desktop\kdcApp\debug.log" /prefetch:-645351001
+- 22:05:30.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=141
+- 22:05:30.641 DEBUG: OnContextCreated()
+- 22:05:30.875 INFO: GET 304 /css/style.css
+- 22:05:30.875 INFO: GET 200 /last_patient.php
+- 22:05:30.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 22:05:39.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 22:05:39.329 DEBUG: OnContextCreated()
+- 22:05:39.547 INFO: GET 304 /css/style.css
+- 22:05:39.578 INFO: GET 200 /view_patient.php
+- 22:05:39.812 INFO: GET 404 /images/sort_both.png
+- 22:05:39.906 INFO: GET 404 /images/sort_desc.png
+- 22:05:39.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 22:05:43.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 22:05:43.375 DEBUG: OnContextCreated()
+- 22:05:43.593 INFO: GET 304 /css/style.css
+- 22:05:43.593 INFO: GET 200 /pat_details.php?p=143
+- 22:05:43.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=143
+- 22:06:41.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=143
+- 22:06:41.282 DEBUG: OnContextCreated()
+- 22:06:41.500 INFO: GET 304 /css/style.css
+- 22:06:41.515 INFO: GET 200 /last_patient.php
+- 22:06:41.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 22:06:48.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 22:06:48.813 DEBUG: OnContextCreated()
+- 22:06:48.047 INFO: GET 304 /css/style.css
+- 22:06:48.062 INFO: GET 200 /view_patient.php
+- 22:06:49.375 INFO: GET 404 /images/sort_both.png
+- 22:06:49.500 INFO: GET 404 /images/sort_desc.png
+- 22:06:49.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 22:06:54.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 22:06:54.204 DEBUG: OnContextCreated()
+- 22:06:54.437 INFO: GET 304 /css/style.css
+- 22:06:54.437 INFO: GET 200 /pat_details.php?p=128
+- 22:06:54.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=128
+- 22:06:58.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=128
+- 22:06:58.547 DEBUG: OnContextCreated()
+- 22:06:58.781 INFO: GET 304 /css/style.css
+- 22:06:58.781 INFO: GET 200 /pat_edit.php?p=128
+- 22:06:58.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_edit.php?p=128
+- 22:07:01.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_edit.php?p=128
+- 22:07:02.343 INFO: POST 302 /pat_edit.php?p=128
+- 22:07:02.204 DEBUG: OnContextCreated()
+- 22:07:02.422 INFO: GET 304 /css/style.css
+- 22:07:02.422 INFO: GET 200 /pat_details.php?p=128
+- 22:07:02.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_details.php?p=128
+- 22:12:33.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_details.php?p=128
+- 22:12:33.218 INFO: GET 302 /logout.php
+- 22:12:34.312 INFO: GET 302 /index.php
+- 22:12:34.172 DEBUG: OnContextCreated()
+- 22:12:34.406 INFO: GET 304 /css/style.css
+- 22:12:34.406 INFO: GET 200 /login.php
+- 22:12:34.453 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+[0910/221234:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62424/js/main.js (15)
+- 22:12:34.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/login.php
+- 22:13:50.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/login.php
+- 22:13:50.781 INFO: POST 302 /login.php
+- 22:13:50.641 DEBUG: OnContextCreated()
+- 22:13:50.859 INFO: GET 304 /css/style.css
+- 22:13:50.859 INFO: GET 200 /index.php
+- 22:13:50.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/index.php
+- 22:13:53.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/index.php
+- 22:13:53.734 INFO: POST 302 /index.php
+- 22:13:53.579 DEBUG: OnContextCreated()
+- 22:13:53.812 INFO: GET 304 /css/style.css
+- 22:13:53.812 INFO: GET 200 /pat_info.php?p_id=123
+- 22:13:53.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/pat_info.php?p_id=123
+- 22:14:15.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/pat_info.php?p_id=123
+- 22:14:15.968 INFO: POST 302 /pat_info.php?p_id=123
+- 22:14:15.829 DEBUG: OnContextCreated()
+- 22:14:15.047 INFO: GET 304 /css/style.css
+- 22:14:15.047 INFO: GET 200 /submit.php
+- 22:14:15.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/submit.php
+- 22:14:19.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/submit.php
+- 22:14:20.265 INFO: POST 302 /submit.php
+- 22:14:20.125 DEBUG: OnContextCreated()
+- 22:14:20.343 INFO: GET 304 /css/style.css
+- 22:14:20.343 INFO: GET 200 /last_patient.php
+- 22:14:20.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 22:19:27.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 22:19:27.187 INFO: GET 302 /logout.php
+- 22:19:28.265 INFO: GET 302 /index.php
+- 22:19:28.125 DEBUG: OnContextCreated()
+- 22:19:28.359 INFO: GET 200 /login.php
+- 22:19:28.359 INFO: GET 304 /css/style.css
+- 22:19:28.406 INFO: GET 404 /js/vendor/jquery-1.9.1.min.js
+[0910/221928:INFO:CONSOLE(15)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62424/js/main.js (15)
+- 22:19:28.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/login.php
+- 22:21:15.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/login.php
+- 22:21:15.437 INFO: POST 302 /login.php
+- 22:21:15.297 DEBUG: OnContextCreated()
+- 22:21:15.515 INFO: GET 304 /css/style.css
+- 22:21:15.515 INFO: GET 200 /index.php
+- 22:21:15.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/index.php
+- 22:21:18.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/index.php
+- 22:21:19.157 DEBUG: OnContextCreated()
+- 22:21:19.375 INFO: GET 304 /css/style.css
+- 22:21:19.390 INFO: GET 200 /user.php?u=anafi&s=n
+- 22:21:19.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/user.php?u=anafi&s=n
+- 22:21:31.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/user.php?u=anafi&s=n
+- 22:21:31.438 DEBUG: OnContextCreated()
+- 22:21:31.656 INFO: GET 200 /view_doctor.php
+- 22:21:31.656 INFO: GET 304 /css/style.css
+- 22:21:31.765 INFO: GET 404 /images/sort_both.png
+- 22:21:31.781 INFO: GET 404 /images/sort_asc.png
+- 22:21:31.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_doctor.php
+- 22:21:35.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_doctor.php
+- 22:21:35.485 DEBUG: OnContextCreated()
+- 22:21:35.703 INFO: GET 304 /css/style.css
+- 22:21:35.703 INFO: GET 200 /doc_details.php?d=1
+- 22:21:35.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/doc_details.php?d=1
+- 22:21:44.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/doc_details.php?d=1
+- 22:21:44.922 DEBUG: OnContextCreated()
+- 22:21:44.140 INFO: GET 200 /view_patient.php
+- 22:21:44.140 INFO: GET 304 /css/style.css
+- 22:21:45.234 INFO: GET 404 /images/sort_both.png
+- 22:21:45.250 INFO: GET 404 /images/sort_desc.png
+- 22:21:45.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 22:21:47.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 22:21:47.344 DEBUG: OnContextCreated()
+- 22:21:47.578 INFO: GET 304 /css/style.css
+- 22:21:47.656 INFO: GET 200 /last_patient.php
+- 22:21:47.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/last_patient.php
+- 22:21:53.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/last_patient.php
+- 22:21:53.657 DEBUG: OnContextCreated()
+- 22:21:53.875 INFO: GET 304 /css/style.css
+- 22:21:53.875 INFO: GET 200 /view_patient.php
+- 22:21:53.953 INFO: GET 404 /images/sort_both.png
+- 22:21:53.968 INFO: GET 404 /images/sort_desc.png
+- 22:21:53.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_patient.php
+- 22:21:58.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_patient.php
+- 22:21:58.266 DEBUG: OnContextCreated()
+- 22:21:58.484 INFO: GET 304 /css/style.css
+- 22:21:58.500 INFO: GET 200 /patient_trash.php
+- 22:21:58.578 INFO: GET 404 /images/sort_both.png
+- 22:21:58.593 INFO: GET 404 /images/sort_desc.png
+- 22:21:58.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/patient_trash.php
+- 22:22:00.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/patient_trash.php
+- 22:22:00.094 DEBUG: OnContextCreated()
+- 22:22:00.312 INFO: GET 200 /view_doctor.php
+- 22:22:00.328 INFO: GET 304 /css/style.css
+- 22:22:00.515 INFO: GET 404 /images/sort_both.png
+- 22:22:00.531 INFO: GET 404 /images/sort_asc.png
+- 22:22:00.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/view_doctor.php
+- 22:22:05.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62424/view_doctor.php
+- 22:22:05.625 DEBUG: OnContextCreated()
+- 22:22:05.843 INFO: GET 304 /css/style.css
+- 22:22:05.843 INFO: GET 200 /index.php
+- 22:22:05.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62424/index.php
+- 22:22:14.922 DEBUG: WM_DESTROY
+- 22:22:14.922 DEBUG: RemoveBrowserWindow(): hwnd = 4851970
+- 22:22:14.922 INFO: Stopping Mongoose web server
+- 22:22:14.922 DEBUG: Mongoose webserver stopped immediately
+- 22:22:14.937 DEBUG: OnBeforeClose() hwnd=2821428
+- 22:22:14.937 DEBUG: RemoveBrowserWindow(): hwnd = 2821428
+- 22:22:14.937 DEBUG: GetBrowserWindow(): not found, hwnd = 2821428
+- 22:22:14.937 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:22:14.937 DEBUG: Calling CefQuitMessageLoop()
+- 22:22:14.719 DEBUG: OnBrowserDestroyed()
+- 22:22:14.047 INFO: Ended application
+- 22:22:14.047 INFO: --------------------------------------------------------
